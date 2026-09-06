@@ -42,4 +42,4 @@ app.Run();
 record SiteContent(TrainerProfile Profile, TrainingProgram[] Programs);
 record TrainerProfile(string Description, string Quote, string QuoteAttribution);
 record TrainingProgram(string Id, string Category, string Symbol, string Label, string Name,
-    string Description, string[] Features, string SuitedFor, bool Featured);
+    string Description, string[] Features, string SuitedFor, bool Featured, string Type = "online");

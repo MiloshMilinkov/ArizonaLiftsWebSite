@@ -6,27 +6,59 @@
   },
   "programs": [
     {
-      "id": "online-program", "category": "SELF-GUIDED", "symbol": "↗", "label": "Build your foundation",
-      "name": "Online program",
-      "description": "A clear direction for your training, with the flexibility to work at your own pace.",
-      "features": ["Structured workout plan", "A focus on progressive training", "Flexible weekly routine"],
-      "suitedFor": "An option to discuss if you enjoy training independently and want more structure. Ask Arizona Lifts about the available plans, equipment requirements, duration, and pricing.",
-      "featured": false
+      "id": "basic",
+      "name": "Basic",
+      "category": "ONLINE MENTORSHIP",
+      "symbol": "↗",
+      "label": "Your foundation for progress",
+      "description": "Personalized training, a meal plan, and ongoing support.",
+      "features": [
+        "Assessment of your starting point, goals, and capabilities",
+        "Personalized training plan in the app",
+        "Video demonstrations of every exercise",
+        "Technique checks through video reviews",
+        "Personalized seven-day meal plan",
+        "Progress tracking and regular weekly check-ins",
+        "Plan adjustments to match your progress and commitments",
+        "Nutrition handbook and a library of over 100 recipes",
+        "E-book on carbohydrates",
+        "Wellness journal",
+        "Ongoing WhatsApp support"
+      ],
+      "suitedFor": "",
+      "featured": false,
+      "type": "online"
     },
     {
-      "id": "personal-mentorship", "category": "PERSONAL SUPPORT", "symbol": "✳", "label": "Grow with guidance",
+      "id": "premium",
+      "name": "Premium",
+      "category": "ONLINE MENTORSHIP",
+      "symbol": "✳",
+      "label": "Additional individual support",
+      "description": "Everything in Basic, with additional guidance and individual video consultations.",
+      "features": [
+        "Everything included in Basic, plus:",
+        "Tracking your eating habits with specific guidance",
+        "One individual 30-minute video consultation per month — a workout over video call or professional feedback on your current condition and progress"
+      ],
+      "suitedFor": "",
+      "featured": true,
+      "type": "online"
+    },
+    {
+      "id": "personal-mentorship",
+      "type": "personal",
       "name": "1:1 mentorship",
+      "category": "PERSONAL SUPPORT",
+      "symbol": "↗",
+      "label": "Grow with guidance",
       "description": "A more personal approach to building confidence, consistency, and strength.",
-      "features": ["Training built around your goals", "Accountability and check-ins", "Guidance as you progress"],
-      "suitedFor": "An option to discuss if you want individual support. Check availability, the check-in schedule, coaching scope, and pricing directly with Arizona Lifts.",
-      "featured": true
-    },
-    {
-      "id": "training-review", "category": "FRESH PERSPECTIVE", "symbol": "↗", "label": "Find your next step",
-      "name": "Training review",
-      "description": "Take a closer look at your current routine and explore where to go from here.",
-      "features": ["Discuss your current routine", "Clarify your training goals", "Identify your next steps"],
-      "suitedFor": "An option to discuss if you already have a routine and would value feedback. Confirm whether individual reviews are offered, along with their format and pricing.",
+      "features": [
+        "Training built around your goals",
+        "Accountability and check-ins",
+        "Guidance as you progress"
+      ],
+      "suitedFor": "",
       "featured": false
     }
   ]

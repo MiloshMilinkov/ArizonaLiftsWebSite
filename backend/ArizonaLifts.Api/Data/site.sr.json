@@ -6,48 +6,59 @@
   },
   "programs": [
     {
-      "id": "online-program",
-      "category": "SAMOSTALNO",
+      "id": "basic",
+      "name": "Basic",
+      "category": "ONLAJN MENTORSTVO",
       "symbol": "↗",
-      "label": "Izgradi osnovu",
-      "name": "Onlajn program",
-      "description": "Jasan pravac za trening, uz slobodu da napreduješ svojim tempom.",
+      "label": "Tvoja osnova za napredak",
+      "description": "Personalizovan trening, plan ishrane i kontinuirana podrška.",
       "features": [
-        "Strukturiran plan treninga",
-        "Fokus na postepenom napretku",
-        "Fleksibilna nedeljna rutina"
+        "Analiza početnog stanja, ciljeva i mogućnosti",
+        "Personalizovani plan treninga u aplikaciji",
+        "Video-prikaz svih vežbi",
+        "Provera tehnike putem snimaka",
+        "Sedmodnevni personalizovani plan ishrane",
+        "Praćenje napretka i redovni nedeljni check-in",
+        "Prilagođavanje plana u skladu sa napretkom i obavezama",
+        "Priručnik o ishrani i baza sa više od 100 recepata",
+        "E-knjiga o ugljenim hidratima",
+        "Wellness dnevnik",
+        "Kontinuirana WhatsApp podrška"
       ],
-      "suitedFor": "Opcija za razgovor ako voliš samostalne treninge i želiš jasniju strukturu. Raspitaj se kod Arizona Lifts o dostupnim planovima, potrebnoj opremi, trajanju i ceni.",
-      "featured": false
+      "suitedFor": "",
+      "featured": false,
+      "type": "online"
+    },
+    {
+      "id": "premium",
+      "name": "Premium",
+      "category": "ONLAJN MENTORSTVO",
+      "symbol": "✳",
+      "label": "Dodatna individualna podrška",
+      "description": "Sve iz Basic paketa, uz dodatne smernice i individualne video-konsultacije.",
+      "features": [
+        "Sve što obuhvata Basic paket, plus:",
+        "Praćenje navika u ishrani i konkretne smernice",
+        "Jedna individualna video-konsultacija mesečno u trajanju od 30 minuta — trening preko video-poziva ili stručno komentarisanje trenutnog stanja i napretka"
+      ],
+      "suitedFor": "",
+      "featured": true,
+      "type": "online"
     },
     {
       "id": "personal-mentorship",
-      "category": "LIČNA PODRŠKA",
-      "symbol": "✳",
-      "label": "Napreduj uz podršku",
+      "type": "personal",
       "name": "Mentorstvo 1 na 1",
+      "category": "LIČNA PODRŠKA",
+      "symbol": "↗",
+      "label": "Napreduj uz podršku",
       "description": "Ličniji pristup izgradnji samopouzdanja, doslednosti i snage.",
       "features": [
         "Trening prilagođen tvojim ciljevima",
         "Podrška i redovno praćenje",
         "Smernice tokom napretka"
       ],
-      "suitedFor": "Opcija za razgovor ako želiš individualnu podršku. Dostupnost, raspored konsultacija, obim saradnje i cenu potvrdi direktno sa Arizona Lifts.",
-      "featured": true
-    },
-    {
-      "id": "training-review",
-      "category": "NOVI POGLED",
-      "symbol": "↗",
-      "label": "Pronađi sledeći korak",
-      "name": "Analiza treninga",
-      "description": "Sagledaj svoju trenutnu rutinu i istraži u kom pravcu možeš da nastaviš.",
-      "features": [
-        "Razgovor o trenutnoj rutini",
-        "Definisanje ciljeva treninga",
-        "Određivanje sledećih koraka"
-      ],
-      "suitedFor": "Opcija za razgovor ako već imaš rutinu i želiš povratne informacije. Proveri da li su individualne analize dostupne, u kom obliku se održavaju i koja je cena.",
+      "suitedFor": "",
       "featured": false
     }
   ]

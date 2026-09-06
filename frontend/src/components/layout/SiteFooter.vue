@@ -11,6 +11,7 @@ import { socialLinks } from '@/config/site'
       <SiteBrand />
       <p>{{ t('footer.tagline') }}</p>
       <a :href="socialLinks.instagram" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+      <a :href="socialLinks.tiktok" target="_blank" rel="noopener noreferrer">TikTok ↗</a>
     </div>
     <div class="footer-bottom">
       <span>© {{ new Date().getFullYear() }} Arizona Lifts. {{ t('footer.rights') }}</span

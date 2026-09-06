@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700&display=swap');
 @import './tokens.css';
 
 :root {
-  font-family: 'DM Sans', sans-serif;
+  font-family: var(--font-body);
   color: var(--ink);
   background: var(--background);
   font-synthesis: none;
@@ -129,7 +129,7 @@ p {
   margin: 0;
 }
 h1 {
-  font-family: 'Barlow Condensed', 'Arial Narrow', Impact, sans-serif;
+  font-family: var(--font-heading);
   font-size: clamp(4.3rem, 7.3vw, 7.9rem);
   font-weight: 700;
   letter-spacing: -1.7px;
@@ -222,7 +222,7 @@ em {
   align-items: end;
   color: white;
   z-index: 1;
-  font-family: 'Barlow Condensed', Impact, sans-serif;
+  font-family: var(--font-heading);
   font-size: 3.1rem;
   line-height: 1.02;
 }
@@ -254,7 +254,7 @@ figcaption {
   align-items: center;
   gap: 24px;
   padding: 24px 5%;
-  font-family: 'Barlow Condensed', Impact, sans-serif;
+  font-family: var(--font-heading);
   font-weight: 700;
   font-size: 1.45rem;
   letter-spacing: 0.7px;
@@ -272,7 +272,7 @@ figcaption {
   gap: 9%;
 }
 h2 {
-  font-family: 'Barlow Condensed', Impact, sans-serif;
+  font-family: var(--font-heading);
   font-size: 2.9rem;
   line-height: 1.1;
   letter-spacing: -0.5px;
@@ -753,4 +753,40 @@ html[lang='sr-Latn'] .hero h1 {
 }
 footer a:focus-visible {
   outline-color: var(--accent);
+}
+
+/* Anton is a single-weight display face; use its native weight without faux bold. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.brand,
+.eyebrow,
+.image-label,
+.ticker {
+  font-family: var(--font-heading);
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+.brand {
+  letter-spacing: 0.2px;
+}
+.image-label b {
+  font-weight: 400;
+}
+/* Symbols use the body stack, where arrows have consistent glyph coverage. */
+.brand i,
+.ticker b {
+  font-family: var(--font-body);
 }

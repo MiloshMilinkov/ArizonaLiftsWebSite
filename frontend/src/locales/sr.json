@@ -47,17 +47,19 @@
     "error": "Uvod trenutno nije dostupan."
   },
   "programs": {
-    "chapter": "TVOJE SLEDEĆE POGLAVLJE",
-    "goals": "Tvoji ciljevi.",
-    "forward": "Tvoj put napred.",
-    "support": "Od jasnog plana do lične podrške.",
-    "fit": "Pronađi pristup koji se uklapa u tvoj život.",
-    "note": "Istraži moguće opcije treninga. Detalje i dostupnost potvrdi direktno sa Arizona Lifts.",
+    "chapter": "PODRŠKA NA TVOM PUTU",
+    "goals": "Onlajn",
+    "forward": "mentorstvo",
+    "support": "Dva paketa. Tvoji ciljevi u centru pažnje.",
+    "fit": "Uporedi Basic i Premium i izaberi podršku za sebe.",
+    "note": "Premium obuhvata sve pogodnosti Basic paketa, uz dodatnu individualnu podršku.",
     "loading": "Učitavanje programa…",
     "error": "Programi nisu učitani. Pokušaj ponovo ili se javi putem Instagrama.",
     "empty": "Novi programi su u pripremi. Za više informacija javi se putem Instagrama.",
     "for": "Kome je namenjeno?",
-    "ask": "Raspitaj se o programu"
+    "ask": "Raspitaj se o mentorstvu",
+    "personalTitle": "Personalno mentorstvo",
+    "personalDescription": "Individualna podrška za tvoje ciljeve, rutinu i napredak."
   },
   "contact": {
     "fit": "PRONAĐIMO TVOJ PRAVAC",

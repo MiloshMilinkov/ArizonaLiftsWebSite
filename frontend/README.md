@@ -57,3 +57,11 @@ Hosting still uses the existing .NET service. Publish Vue into wwwroot and prese
 ## Visual theme
 
 The desert-and-rose palette lives in `src/assets/styles/tokens.css`. Use semantic CSS variables for new components: light sand and pink for surfaces, plum and muted rose for text. Shared styles and the language switch consume the same tokens.
+
+Headings (h1-h6), the wordmark, section labels, and display titles use Anton at its native 400 weight. Body text remains DM Sans. Font stacks are centralized in tokens.css, with system fallbacks; Google Fonts loads with display=swap and includes Serbian Latin coverage.
+
+## Mentorship content
+
+Basic and Premium mirror the trainer-supplied reference, with Serbian and English content in the API locale files. Basic has eleven benefits; Premium includes Basic plus nutrition-habit guidance and a monthly 30-minute video consultation. Prices, payment charges, and pricing dates are intentionally omitted. The reference image itself is not embedded because it contains prices.
+
+The programs page groups API records by the language-independent `type` field: `online` shows Basic and Premium first; `personal` shows the 1:1 offering below. Keep this field and program IDs consistent across locale files.

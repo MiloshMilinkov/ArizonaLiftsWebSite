@@ -1,6 +1,8 @@
 /* Arizona desert: warm sand, blush pink, clay, and deep plum.
    Keep light pastels on surfaces and darker shades on readable text. */
 :root {
+  --font-heading: 'Anton', 'Arial Narrow', Impact, sans-serif;
+  --font-body: 'DM Sans', sans-serif;
   --background: #fff8f3;
   --surface: #fffdfb;
   --sand: #f1dfcd;

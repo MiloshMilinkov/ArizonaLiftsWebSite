@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "description": "Snažnija rutina počinje planom kome možeš da se vratiš. Istraži treninge i mentorstvo uz Arizona Lifts i napravi sledeći korak ka većem samopouzdanju u teretani.",
+    "quote": "Posveti se sebi. Snaga dolazi korak po korak.",
+    "quoteAttribution": "Malo motivacije za sledeći trening"
+  },
+  "programs": [
+    {
+      "id": "online-program",
+      "category": "SAMOSTALNO",
+      "symbol": "↗",
+      "label": "Izgradi osnovu",
+      "name": "Onlajn program",
+      "description": "Jasan pravac za trening, uz slobodu da napreduješ svojim tempom.",
+      "features": [
+        "Strukturiran plan treninga",
+        "Fokus na postepenom napretku",
+        "Fleksibilna nedeljna rutina"
+      ],
+      "suitedFor": "Opcija za razgovor ako voliš samostalne treninge i želiš jasniju strukturu. Raspitaj se kod Arizona Lifts o dostupnim planovima, potrebnoj opremi, trajanju i ceni.",
+      "featured": false
+    },
+    {
+      "id": "personal-mentorship",
+      "category": "LIČNA PODRŠKA",
+      "symbol": "✳",
+      "label": "Napreduj uz podršku",
+      "name": "Mentorstvo 1 na 1",
+      "description": "Ličniji pristup izgradnji samopouzdanja, doslednosti i snage.",
+      "features": [
+        "Trening prilagođen tvojim ciljevima",
+        "Podrška i redovno praćenje",
+        "Smernice tokom napretka"
+      ],
+      "suitedFor": "Opcija za razgovor ako želiš individualnu podršku. Dostupnost, raspored konsultacija, obim saradnje i cenu potvrdi direktno sa Arizona Lifts.",
+      "featured": true
+    },
+    {
+      "id": "training-review",
+      "category": "NOVI POGLED",
+      "symbol": "↗",
+      "label": "Pronađi sledeći korak",
+      "name": "Analiza treninga",
+      "description": "Sagledaj svoju trenutnu rutinu i istraži u kom pravcu možeš da nastaviš.",
+      "features": [
+        "Razgovor o trenutnoj rutini",
+        "Definisanje ciljeva treninga",
+        "Određivanje sledećih koraka"
+      ],
+      "suitedFor": "Opcija za razgovor ako već imaš rutinu i želiš povratne informacije. Proveri da li su individualne analize dostupne, u kom obliku se održavaju i koja je cena.",
+      "featured": false
+    }
+  ]
+}

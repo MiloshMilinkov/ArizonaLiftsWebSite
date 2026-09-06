@@ -1,0 +1,73 @@
+{
+  "common": {
+    "skip": "Pređi na sadržaj",
+    "retry": "Pokušaj ponovo"
+  },
+  "nav": {
+    "home": "Početna",
+    "programs": "Programi i mentorstvo",
+    "talk": "Hajde da razgovaramo",
+    "label": "Glavna navigacija",
+    "menu": "Meni",
+    "close": "Zatvori",
+    "language": "Izaberi jezik",
+    "brand": "Arizona Lifts početna"
+  },
+  "footer": {
+    "tagline": "Izgradi snagu. Pronađi samopouzdanje.",
+    "rights": "Sva prava zadržana.",
+    "motto": "Ponavljanje po ponavljanje. Dan po dan. Do više snage."
+  },
+  "hero": {
+    "eyebrow": "ARIZONA LIFTS · ONLAJN FITNES",
+    "line1": "Tvoj trud.",
+    "line2": "Više snage",
+    "line3": "zajedno.",
+    "description": "Malo podrške. Mnogo napretka. Pronađi prostor za više snage i samopouzdanja — trening po trening.",
+    "program": "Pronađi svoj program",
+    "about": "Upoznaj Arizona Lifts",
+    "purpose": "SNAGA SA CILJEM",
+    "start": "01 / POČETAK",
+    "show": "POSVETI SE",
+    "yourself": "SEBI.",
+    "caption": "Inspiracija za trening · ilustrativna fotografija",
+    "alt": "Ilustrativna fotografija sportistkinje koja vežba sa bučicama u teretani"
+  },
+  "home": {
+    "values": "Vrednosti treninga",
+    "stronger": "VIŠE SNAGE SVAKOG DANA",
+    "progress": "NAPREDAK PRE SAVRŠENSTVA",
+    "pace": "TVOJ TEMPO. TVOJA SNAGA.",
+    "mindset": "NAČIN RAZMIŠLJANJA",
+    "more": "Više od treninga.",
+    "commitment": "Posvećenost",
+    "you": "sebi.",
+    "explore": "Istraži načine treniranja",
+    "loading": "Učitavanje uvoda…",
+    "error": "Uvod trenutno nije dostupan."
+  },
+  "programs": {
+    "chapter": "TVOJE SLEDEĆE POGLAVLJE",
+    "goals": "Tvoji ciljevi.",
+    "forward": "Tvoj put napred.",
+    "support": "Od jasnog plana do lične podrške.",
+    "fit": "Pronađi pristup koji se uklapa u tvoj život.",
+    "note": "Istraži moguće opcije treninga. Detalje i dostupnost potvrdi direktno sa Arizona Lifts.",
+    "loading": "Učitavanje programa…",
+    "error": "Programi nisu učitani. Pokušaj ponovo ili se javi putem Instagrama.",
+    "empty": "Novi programi su u pripremi. Za više informacija javi se putem Instagrama.",
+    "for": "Kome je namenjeno?",
+    "ask": "Raspitaj se o programu"
+  },
+  "contact": {
+    "fit": "PRONAĐIMO TVOJ PRAVAC",
+    "start": "Ne znaš odakle da počneš?",
+    "goals": "Podeli svoje ciljeve i zajedno pronađimo sledeći korak.",
+    "talk": "Razgovarajmo na Instagramu"
+  },
+  "meta": {
+    "home": "Arizona Lifts | Snaga počinje ovde",
+    "programs": "Programi i mentorstvo | Arizona Lifts",
+    "description": "Arizona Lifts — snaga, samopouzdanje i treninzi koji se uklapaju u tvoj život. Istraži mentorstvo i onlajn programe."
+  }
+}

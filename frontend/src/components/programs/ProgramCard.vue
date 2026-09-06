@@ -1,9 +1,7 @@
 <script setup>
-import { useI18n } from 'vue-i18n'
-import { socialLinks } from '@/config/site'
+import MentorshipContact from './MentorshipContact.vue'
 
 defineProps({ program: { type: Object, required: true } })
-const { t } = useI18n()
 </script>
 
 <template>
@@ -26,15 +24,7 @@ const { t } = useI18n()
         <span>{{ feature }}</span>
       </li>
     </ul>
-    <a
-      class="button mentorship-card__contact"
-      :class="program.featured ? 'mentorship-card__contact--premium' : 'outline'"
-      :href="socialLinks.instagram"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      {{ t('programs.ask') }} <span aria-hidden="true">↗</span>
-    </a>
+    <MentorshipContact :program-name="program.name" :featured="program.featured" />
   </article>
 </template>
 
@@ -115,15 +105,5 @@ const { t } = useI18n()
 }
 .mentorship-card--premium .mentorship-card__features li:first-child {
   font-weight: 700;
-}
-.mentorship-card__contact {
-  width: 100%;
-}
-.mentorship-card__contact--premium {
-  background: var(--ink);
-  color: var(--on-dark);
-}
-.mentorship-card__contact--premium:hover {
-  background: var(--accent-text);
 }
 </style>

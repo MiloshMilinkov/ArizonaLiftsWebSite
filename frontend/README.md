@@ -65,3 +65,7 @@ Headings (h1-h6), the wordmark, section labels, and display titles use Anton at 
 Basic and Premium mirror the trainer-supplied reference, with Serbian and English content in the API locale files. Basic has eleven benefits; Premium includes Basic plus nutrition-habit guidance and a monthly 30-minute video consultation. Prices, payment charges, and pricing dates are intentionally omitted. The reference image itself is not embedded because it contains prices.
 
 The programs page groups API records by the language-independent `type` field: `online` shows Basic and Premium first; `personal` shows the 1:1 offering below. Keep this field and program IDs consistent across locale files.
+
+## Mentorship contact choices
+
+Each card uses MentorshipContact.vue: a native keyboard-accessible disclosure with an Instagram DM link and a mailto link. Contact destinations live in config/site.js. Email subjects use the current language and selected package name. The visitor sends the message in Instagram or their email application; the website does not transmit messages or collect contact data.

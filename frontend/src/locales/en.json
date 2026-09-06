@@ -65,7 +65,10 @@
     "fit": "LET’S FIND YOUR FIT",
     "start": "Not sure where to start?",
     "goals": "Share your goals and find your next step together.",
-    "talk": "Let’s talk on Instagram"
+    "talk": "Let’s talk on Instagram",
+    "instagramMessage": "Message on Instagram",
+    "emailArizona": "Email Arizona",
+    "emailSubject": "Mentorship inquiry — {program}"
   },
   "meta": {
     "home": "Arizona Lifts | Strength starts here",

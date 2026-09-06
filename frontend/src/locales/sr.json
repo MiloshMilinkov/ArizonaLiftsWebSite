@@ -65,7 +65,10 @@
     "fit": "PRONAĐIMO TVOJ PRAVAC",
     "start": "Ne znaš odakle da počneš?",
     "goals": "Podeli svoje ciljeve i zajedno pronađimo sledeći korak.",
-    "talk": "Razgovarajmo na Instagramu"
+    "talk": "Razgovarajmo na Instagramu",
+    "instagramMessage": "Pošalji poruku na Instagramu",
+    "emailArizona": "Pošalji imejl Arizoni",
+    "emailSubject": "Upit za mentorstvo — {program}"
   },
   "meta": {
     "home": "Arizona Lifts | Snaga počinje ovde",

@@ -1,0 +1,60 @@
+# JavaScript dependencies and generated frontend output
+node_modules/
+dist/
+.vite/
+.pnpm-store/
+.npm/
+
+# .NET build and publish output
+bin/
+obj/
+publish/
+artifacts/
+# Vue build copied here by Build.ps1
+/backend/ArizonaLifts.Api/wwwroot/
+
+# Local environment values and credentials (keep example files tracked)
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.sample
+!.env.template
+appsettings.Local.json
+appsettings.*.Local.json
+*.pfx
+*.p12
+*.key
+
+# IDE and user-specific settings
+.vs/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.pubxml.user
+
+# Logs, test results, and coverage
+*.log
+logs/
+TestResults/
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Intentionally track package manifests, lockfiles, pnpm-workspace.yaml,
+# appsettings.json, launchSettings.json, and all source/content assets.

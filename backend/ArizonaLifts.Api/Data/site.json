@@ -1,0 +1,33 @@
+{
+  "profile": {
+    "description": "A stronger routine starts with a plan you can return to. Explore training and mentorship with Arizona Lifts, and take the next step toward feeling more confident in the gym.",
+    "quote": "Show up for yourself. Let strength follow.",
+    "quoteAttribution": "A little motivation for your next session"
+  },
+  "programs": [
+    {
+      "id": "online-program", "category": "SELF-GUIDED", "symbol": "↗", "label": "Build your foundation",
+      "name": "Online program",
+      "description": "A clear direction for your training, with the flexibility to work at your own pace.",
+      "features": ["Structured workout plan", "A focus on progressive training", "Flexible weekly routine"],
+      "suitedFor": "An option to discuss if you enjoy training independently and want more structure. Ask Arizona Lifts about the available plans, equipment requirements, duration, and pricing.",
+      "featured": false
+    },
+    {
+      "id": "personal-mentorship", "category": "PERSONAL SUPPORT", "symbol": "✳", "label": "Grow with guidance",
+      "name": "1:1 mentorship",
+      "description": "A more personal approach to building confidence, consistency, and strength.",
+      "features": ["Training built around your goals", "Accountability and check-ins", "Guidance as you progress"],
+      "suitedFor": "An option to discuss if you want individual support. Check availability, the check-in schedule, coaching scope, and pricing directly with Arizona Lifts.",
+      "featured": true
+    },
+    {
+      "id": "training-review", "category": "FRESH PERSPECTIVE", "symbol": "↗", "label": "Find your next step",
+      "name": "Training review",
+      "description": "Take a closer look at your current routine and explore where to go from here.",
+      "features": ["Discuss your current routine", "Clarify your training goals", "Identify your next steps"],
+      "suitedFor": "An option to discuss if you already have a routine and would value feedback. Confirm whether individual reviews are offered, along with their format and pricing.",
+      "featured": false
+    }
+  ]
+}

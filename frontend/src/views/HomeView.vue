@@ -12,21 +12,20 @@ const { data: profile, error, reload: load } = useLocalizedResource(getTrainerPr
     <span>{{ t('home.stronger') }}</span
     ><b>✳</b><span>{{ t('home.progress') }}</span
     ><b>✳</b><span>{{ t('home.pace') }}</span
-    ><b>✳</b>
+    >
   </div>
   <section class="intro">
     <div>
-      <span class="eyebrow">{{ t('home.mindset') }}</span>
       <h2>
         {{ t('home.more') }}<br />{{ t('home.commitment') }} <em>{{ t('home.you') }}</em>
       </h2>
     </div>
     <div class="intro-copy">
-      <template v-if="profile"
-        ><p>{{ profile.description }}</p>
+      <template v-if="profile">
+        <p>{{ profile.description }}</p>
         <blockquote>{{ profile.quote }}</blockquote>
-        <span class="small">{{ profile.quoteAttribution }}</span></template
-      >
+        <span class="small">{{ profile.quoteAttribution }}</span>
+      </template>
       <div v-else-if="error" role="alert">
         <p>{{ t('home.error') }}</p>
         <button class="text-button" @click="load">{{ t('common.retry') }} ↗</button>

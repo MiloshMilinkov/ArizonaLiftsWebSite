@@ -31,7 +31,14 @@
     "show": "POSVETI SE",
     "yourself": "SEBI.",
     "caption": "Inspiracija za trening · ilustrativna fotografija",
-    "alt": "Ilustrativna fotografija sportistkinje koja vežba sa bučicama u teretani"
+    "alt": "Ilustrativna fotografija sportistkinje koja vežba sa bučicama u teretani",
+    "slideshow": "Galerija fotografija trenera",
+    "trainerPhoto": "Fotografija trenera Arizona Lifts",
+    "imageUnavailable": "Fotografija trenutno nije dostupna.",
+    "previousSlide": "Prethodna fotografija",
+    "nextSlide": "Sledeća fotografija",
+    "pause": "Pauza",
+    "play": "Pokreni"
   },
   "home": {
     "values": "Vrednosti treninga",

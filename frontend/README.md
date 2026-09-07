@@ -69,3 +69,7 @@ The programs page groups API records by the language-independent `type` field: `
 ## Mentorship contact choices
 
 Each card uses MentorshipContact.vue: a native keyboard-accessible disclosure with an Instagram DM link and a mailto link. Contact destinations live in config/site.js. Email subjects use the current language and selected package name. The visitor sends the message in Instagram or their email application; the website does not transmit messages or collect contact data.
+
+## Hero slideshow
+
+Add numbered photos to `src/assets/images/hero/` (for example `01-portrait.jpg` and `02-training.webp`). The five-second slideshow discovers these automatically and replaces the stock photo. It preserves image dimensions across languages, pauses on hover or while the tab is hidden, respects reduced-motion preferences, and offers previous/next and pause/play controls when multiple images are available. Failed images are skipped. Rebuild the production site after changing photos.

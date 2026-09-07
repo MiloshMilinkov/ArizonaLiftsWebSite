@@ -31,7 +31,14 @@
     "show": "SHOW UP FOR",
     "yourself": "YOURSELF.",
     "caption": "Training inspiration · stock photo",
-    "alt": "Stock photograph of an athlete training with dumbbells in a gym"
+    "alt": "Stock photograph of an athlete training with dumbbells in a gym",
+    "slideshow": "Trainer photo slideshow",
+    "trainerPhoto": "Arizona Lifts trainer photo",
+    "imageUnavailable": "The photo is currently unavailable.",
+    "previousSlide": "Previous photo",
+    "nextSlide": "Next photo",
+    "pause": "Pause",
+    "play": "Play"
   },
   "home": {
     "values": "Training values",

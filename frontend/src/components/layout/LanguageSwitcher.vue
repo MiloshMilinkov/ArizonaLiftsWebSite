@@ -1,5 +1,6 @@
 <script setup>
 import { useRoute, useRouter } from 'vue-router'
+import { activeSection } from '@/composables/useActiveSection'
 import { useI18n } from 'vue-i18n'
 const route = useRoute()
 const router = useRouter()
@@ -7,7 +8,7 @@ const { t, locale } = useI18n()
 function selectLanguage(language) {
   if (language === locale.value) return
   router.push({
-    name: route.name,
+    name: activeSection.value,
     params: { ...route.params, locale: language },
     query: route.query,
     hash: route.hash,

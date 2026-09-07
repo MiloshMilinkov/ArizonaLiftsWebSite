@@ -15,9 +15,9 @@ const personalPrograms = computed(() =>
   <section class="program-heading mentorship-heading">
     <div class="eyebrow"><span class="dot"></span> {{ t('programs.chapter') }}</div>
     <div class="program-title">
-      <h1>
+      <h2 class="mentorship-title">
         {{ t('programs.goals') }}<br /><em>{{ t('programs.forward') }}</em>
-      </h1>
+      </h2>
       <p>{{ t('programs.support') }}<br />{{ t('programs.fit') }}</p>
     </div>
   </section>
@@ -71,7 +71,7 @@ const personalPrograms = computed(() =>
 .mentorship-heading .program-title {
   display: block;
 }
-.mentorship-heading h1 {
+.mentorship-heading .mentorship-title {
   text-transform: uppercase;
   font-size: clamp(3.25rem, 7vw, 6.5rem);
 }

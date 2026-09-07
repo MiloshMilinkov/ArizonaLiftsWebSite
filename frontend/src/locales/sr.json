@@ -11,7 +11,8 @@
     "menu": "Meni",
     "close": "Zatvori",
     "language": "Izaberi jezik",
-    "brand": "Arizona Lifts početna"
+    "brand": "Arizona Lifts početna",
+    "transformations": "Transformacije"
   },
   "footer": {
     "tagline": "Izgradi snagu. Pronađi samopouzdanje.",
@@ -80,6 +81,23 @@
   "meta": {
     "home": "Arizona Lifts | Snaga počinje ovde",
     "programs": "Programi i mentorstvo | Arizona Lifts",
-    "description": "Arizona Lifts — snaga, samopouzdanje i treninzi koji se uklapaju u tvoj život. Istraži mentorstvo i onlajn programe."
+    "description": "Arizona Lifts — snaga, samopouzdanje i treninzi koji se uklapaju u tvoj život. Istraži mentorstvo i onlajn programe.",
+    "transformations": "Transformacije klijenata | Arizona Lifts"
+  },
+  "transformations": {
+    "eyebrow": "NAPREDAK, VAŠIM REČIMA",
+    "title": "Transformacije klijenata",
+    "description": "Svaki put je ličan. Prostor za napredak, iskustva i samopouzdanje koje klijenti grade kroz trening.",
+    "photoAlt": "Fotografija transformacije klijenta",
+    "photoPlaceholder": "Fotografije klijenata uskoro",
+    "storyLabel": "ISKUSTVO KLIJENTA",
+    "storyPlaceholder": "Ovde počinje vaša priča",
+    "commentPlaceholder": "Komentari i iskustva klijenata uskoro će biti prikazani ovde.",
+    "commentsEyebrow": "NJIHOVIM REČIMA",
+    "commentsTitle": "Šta kažu klijenti",
+    "commentsDescription": "Nekoliko iskustava koja su klijenti podelili tokom saradnje.",
+    "commentImageAlt": "Originalna poruka klijentkinje: {title}",
+    "readTranslation": "Pročitaj prevod na engleski",
+    "readTranscript": "Pročitaj poruku"
   }
 }

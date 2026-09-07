@@ -1,0 +1,74 @@
+[
+  {
+    "id": "transformation-1",
+    "image": "/images/transformations/transformation-01.jpeg",
+    "en": {
+      "alt": "Client progress comparison in two photos"
+    },
+    "sr": {
+      "alt": "Poređenje napretka klijentkinje na dve fotografije"
+    },
+    "width": 846,
+    "height": 1959
+  },
+  {
+    "id": "transformation-2",
+    "image": "/images/transformations/transformation-02.jpeg",
+    "en": {
+      "alt": "Client training progress with dumbbells"
+    },
+    "sr": {
+      "alt": "Napredak klijentkinje tokom treninga sa bučicama"
+    },
+    "width": 1029,
+    "height": 2051
+  },
+  {
+    "id": "transformation-3",
+    "image": "/images/transformations/transformation-03.png",
+    "en": {
+      "alt": "One-month mentorship progress collage"
+    },
+    "sr": {
+      "alt": "Kolaž napretka tokom mesec dana mentorstva"
+    },
+    "width": 440,
+    "height": 749
+  },
+  {
+    "id": "transformation-4",
+    "image": "/images/transformations/transformation-04.png",
+    "en": {
+      "alt": "Client progress comparison from behind"
+    },
+    "sr": {
+      "alt": "Poređenje napretka klijentkinje otpozadi"
+    },
+    "width": 366,
+    "height": 636
+  },
+  {
+    "id": "transformation-5",
+    "image": "/images/transformations/transformation-05.png",
+    "en": {
+      "alt": "Client feedback with progress photos"
+    },
+    "sr": {
+      "alt": "Utisak klijentkinje uz fotografije napretka"
+    },
+    "width": 1027,
+    "height": 1697
+  },
+  {
+    "id": "transformation-6",
+    "image": "/images/transformations/transformation-06.jpeg",
+    "en": {
+      "alt": "Side-by-side client progress photos"
+    },
+    "sr": {
+      "alt": "Uporedne fotografije napretka klijentkinje"
+    },
+    "width": 1179,
+    "height": 1262
+  }
+]

@@ -5,6 +5,7 @@ import { onMounted, onBeforeUnmount, ref, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import SiteBrand from './SiteBrand.vue'
 import LanguageSwitcher from './LanguageSwitcher.vue'
+import { activeSection } from '@/composables/useActiveSection'
 import { socialLinks } from '@/config/site'
 
 const open = ref(false)
@@ -45,11 +46,22 @@ watch(
       ></span>
     </button>
     <nav @click="open = false" id="navigation" :class="{ open }" :aria-label="t('nav.label')">
-      <RouterLink :to="{ name: 'home', params: { locale } }">{{ t('nav.home') }}</RouterLink
-      ><RouterLink :to="{ name: 'programs', params: { locale } }">{{
-        t('nav.programs')
-      }}</RouterLink
-      ><a class="nav-cta" :href="socialLinks.instagram" target="_blank" rel="noopener noreferrer"
+      <RouterLink
+        v-for="section in ['home', 'programs', 'transformations']"
+        :key="section"
+        :to="{ name: section, params: { locale } }"
+        custom
+        v-slot="{ href, navigate }"
+      >
+        <a
+          :href="href"
+          @click="navigate"
+          :class="{ 'router-link-exact-active': activeSection === section }"
+          :aria-current="activeSection === section ? 'location' : undefined"
+          >{{ t('nav.' + section) }}</a
+        >
+      </RouterLink>
+      <a class="nav-cta" :href="socialLinks.instagram" target="_blank" rel="noopener noreferrer"
         >{{ t('nav.talk') }} <span>↗</span></a
       >
     </nav>
@@ -93,7 +105,7 @@ watch(
 .burger--open > span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
-@media (max-width: 850px) {
+@media (max-width: 1100px) {
   .header {
     position: sticky;
     top: 0;

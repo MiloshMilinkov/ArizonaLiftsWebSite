@@ -11,7 +11,8 @@
     "menu": "Menu",
     "close": "Close",
     "language": "Choose language",
-    "brand": "Arizona Lifts home"
+    "brand": "Arizona Lifts home",
+    "transformations": "Client transformations"
   },
   "footer": {
     "tagline": "Build strength. Find your confidence.",
@@ -80,6 +81,23 @@
   "meta": {
     "home": "Arizona Lifts | Strength starts here",
     "programs": "Programs & mentorship | Arizona Lifts",
-    "description": "Arizona Lifts — strength, confidence, and a training journey that fits your life. Explore mentorship and online training."
+    "description": "Arizona Lifts — strength, confidence, and a training journey that fits your life. Explore mentorship and online training.",
+    "transformations": "Client transformations | Arizona Lifts"
+  },
+  "transformations": {
+    "eyebrow": "PROGRESS, IN YOUR OWN WORDS",
+    "title": "Client transformations",
+    "description": "Every journey is personal. A space for client progress, experiences, and the confidence built along the way.",
+    "photoAlt": "Client transformation photo",
+    "photoPlaceholder": "Client photos coming soon",
+    "storyLabel": "THE CLIENT EXPERIENCE",
+    "storyPlaceholder": "Your story belongs here",
+    "commentPlaceholder": "Client comments and experiences will appear here soon.",
+    "commentsEyebrow": "IN THEIR OWN WORDS",
+    "commentsTitle": "What clients say",
+    "commentsDescription": "A few experiences shared by clients along the way.",
+    "commentImageAlt": "Original client message: {title}",
+    "readTranslation": "Read the English translation",
+    "readTranscript": "Read the message"
   }
 }

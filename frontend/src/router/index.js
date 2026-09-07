@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import i18n from '@/i18n'
+import JourneyView from '@/views/JourneyView.vue'
 import { browserLocale, languageTags, rememberLocale } from '@/i18n/locale'
 
 const router = createRouter({
@@ -26,20 +27,49 @@ const router = createRouter({
     {
       path: '/:locale(en|sr)',
       name: 'home',
-      component: () => import('@/views/HomeView.vue'),
+      component: JourneyView,
       meta: { titleKey: 'meta.home' },
     },
     {
       path: '/:locale(en|sr)/programs',
       name: 'programs',
-      component: () => import('@/views/ProgramsView.vue'),
+      component: JourneyView,
       meta: { titleKey: 'meta.programs' },
+    },
+    {
+      path: '/transformations',
+      redirect: () => ({ name: 'transformations', params: { locale: browserLocale() } }),
+    },
+    {
+      path: '/:locale(en|sr)/transformations',
+      name: 'transformations',
+      component: JourneyView,
+      meta: { titleKey: 'meta.transformations' },
     },
     { path: '/:pathMatch(.*)*', redirect: '/' },
   ],
-  scrollBehavior(to, from) {
-    if (to.name === from.name && to.params.locale !== from.params.locale) return false
-    return { top: 0 }
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) return savedPosition
+    if (from.name && to.params.locale !== from.params.locale) return false
+    // Wait until the initial app mount has rendered the shared sections.
+    return new Promise((resolve) =>
+      requestAnimationFrame(() =>
+        requestAnimationFrame(() => {
+          const target = document.getElementById(to.hash.slice(1) || to.name)
+          if (!target) return resolve({ top: 0 })
+          const headerHeight =
+            document.querySelector('.header')?.getBoundingClientRect().height || 100
+          resolve({
+            el: target,
+            top: headerHeight + 20,
+            behavior:
+              from.name && !window.matchMedia('(prefers-reduced-motion: reduce)').matches
+                ? 'smooth'
+                : 'auto',
+          })
+        }),
+      ),
+    )
   },
 })
 

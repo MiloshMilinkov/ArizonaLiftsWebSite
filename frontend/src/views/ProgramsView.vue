@@ -3,10 +3,9 @@ import { useI18n } from 'vue-i18n'
 import { computed } from 'vue'
 const { t } = useI18n()
 import ProgramCard from '@/components/programs/ProgramCard.vue'
-import { getPrograms } from '@/services/programService'
 import { socialLinks } from '@/config/site'
-import { useLocalizedResource } from '@/composables/useLocalizedResource'
-const { data: programs, loading, error, reload: load } = useLocalizedResource(getPrograms, [])
+import { useSiteContent } from '@/composables/useSiteContent'
+const { programs } = useSiteContent()
 const onlinePrograms = computed(() => programs.value.filter((program) => program.type === 'online'))
 const personalPrograms = computed(() =>
   programs.value.filter((program) => program.type === 'personal'),
@@ -26,12 +25,7 @@ const personalPrograms = computed(() =>
     <p class="mentorship-note">
       {{ t('programs.note') }}
     </p>
-    <div v-if="loading" class="status" role="status">{{ t('programs.loading') }}</div>
-    <div v-else-if="error" class="status" role="alert">
-      <p>{{ t('programs.error') }}</p>
-      <button class="button primary" @click="load">{{ t('common.retry') }} ↻</button>
-    </div>
-    <p v-else-if="!programs.length" class="status">
+    <p v-if="!programs.length" class="status">
       {{ t('programs.empty') }}
     </p>
     <div v-else class="mentorship-grid">
@@ -39,7 +33,7 @@ const personalPrograms = computed(() =>
     </div>
   </section>
   <section
-    v-if="!loading && !error && personalPrograms.length"
+    v-if="personalPrograms.length"
     class="program-section personal-mentorship"
     aria-labelledby="personal-mentorship-title"
   >

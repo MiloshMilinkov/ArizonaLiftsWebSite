@@ -11,9 +11,7 @@ else { throw 'Install Node.js 22.12+ and npm or pnpm first.' }
 Push-Location (Join-Path $projectRoot 'frontend')
 try {
     if (!(Test-Path 'node_modules')) { & $packageManager install; if ($LASTEXITCODE) { throw 'Dependency installation failed.' } }
-    $apiProject = Join-Path $projectRoot 'backend/ArizonaLifts.Api/ArizonaLifts.Api.csproj'
-    $api = Start-Process dotnet -ArgumentList @('run', '--project', ('"' + $apiProject + '"')) -WindowStyle Hidden -PassThru
-    try { & $packageManager run dev; if ($LASTEXITCODE) { throw 'Frontend startup failed.' } }
-    finally { if (!$api.HasExited) { Stop-Process -Id $api.Id -ErrorAction SilentlyContinue } }
+    & $packageManager run dev
+    if ($LASTEXITCODE) { throw 'Frontend startup failed.' }
 } finally { Pop-Location }
 

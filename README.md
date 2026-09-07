@@ -1,18 +1,10 @@
 # Arizona Lifts
 
-Vue 3 + Vite frontend and ASP.NET Core / C# .NET 10 API. Two responsive pages: trainer introduction and programs/mentorship. Includes mobile navigation, expandable program descriptions, accessible error/retry/loading states, Instagram links, and automatic copyright year.
+A static Vue 3 / Vite website for Kristina: English and Serbian Latin, online Basic/Premium mentorship, personal 1:1 mentorship, a photo slideshow, and Instagram/email contact links. No .NET SDK, API server, database, or email service is needed.
 
-## Run locally
+## Development
 
-Requirements: .NET 10 SDK, Node.js 22.12+ (or supported newer LTS), and pnpm or npm.
-
-Run `./Start-Dev.ps1` in PowerShell. Open http://127.0.0.1:5173. The API listens on http://127.0.0.1:5080; Vite proxies `/api` to it. Ctrl+C stops development. Scripts also recognize Codex's bundled pnpm on this machine.
-
-Alternatively, in separate terminals:
-
-```powershell
-dotnet run --project backend/ArizonaLifts.Api
-```
+Install Node.js 22.12+ (or a compatible newer LTS) and pnpm. From the project root run `./Start-Dev.ps1`, or run these commands:
 
 ```powershell
 cd frontend
@@ -20,31 +12,27 @@ pnpm install
 pnpm dev
 ```
 
-## Production
+Open http://127.0.0.1:5173. The PowerShell scripts also recognize this machine's bundled Node/pnpm installation. Ctrl+C stops the frontend. Any previously running .NET process can be stopped; the website no longer uses it.
 
-Run `./Build.ps1`. This builds Vue, copies static assets to the API's wwwroot, and publishes a single ASP.NET application in `publish/`. From that directory run `dotnet ArizonaLifts.Api.dll --urls http://localhost:5080`. The .NET application serves both the website (including direct `/programs` requests) and API. Deploy behind an HTTPS reverse proxy or to a .NET-compatible host. No cloud deployment is configured.
+## Build and check
 
-## Content to finalize
+Run `./Build.ps1`, or `pnpm build` inside frontend. The deployable output is `frontend/dist`. Use `pnpm preview` to serve that build locally, `pnpm test` for regression checks, and `pnpm format:check` for formatting validation.
 
-The Instagram profile could not be read automatically. Program names, features, and descriptions are proposed content, not verified offers. Confirm these with the trainer before publishing. There are no invented prices, qualifications, testimonials, or availability claims. The motivation line is draft site copy, not an attributed quote from the trainer.
+## Edit content
 
-- Add the trainer's authorized portrait to `frontend/public/images/trainer.jpg` and change the image src in Home.vue to `/images/trainer.jpg`. Update its alt text and remove the stock-photo caption in `frontend/src/Home.vue`.
-- Edit introduction, quote, attribution, and program records in `backend/ArizonaLifts.Api/Data/site.json`; restart the API after changes.
-- Replace the draft availability note in Programs.vue after confirming offers.
-- Instagram is the only supplied social account. Add other verified links in `frontend/src/App.vue`.
-- Fonts load from Google Fonts and have local fallbacks. The temporary stock photograph loads from Pexels; replace it with a local trainer portrait.
+- `frontend/src/content/en.json` and `sr.json`: trainer profile, quote, and all mentorship details.
+- `frontend/src/locales/en.json` and `sr.json`: UI labels and messages.
+- `frontend/src/config/site.js`: social and contact destinations.
+- `frontend/src/assets/images/hero/`: numbered slideshow photos.
 
-Stock photo: Scott Webb, [Woman Holding Dumbbells](https://www.pexels.com/photo/woman-holding-dumbbells-136410/), [Pexels license](https://www.pexels.com/license/). The pictured athlete is not represented as Arizona Lifts.
+Content is bundled at build time. Rebuild and deploy after changes; development updates through Vite. Keep program IDs and types consistent between languages. Prices remain omitted.
 
-## API
+## Static hosting
 
-- `GET /api/health` — health status
-- `GET /api/site` — introduction and motivational copy
-- `GET /api/programs` — program cards
-- `GET /api/programs/{id}` — individual program; 404 for unknown IDs
+For a Git-connected Cloudflare Pages deployment, use project root `frontend`, build command `pnpm run build`, and output directory `dist`. Use a Node/pnpm version compatible with the lockfile; keep pnpm-workspace.yaml tracked for the esbuild approval. The included public/_redirects file rewrites direct language URLs to index.html. Other static hosts need an equivalent SPA fallback.
 
-Content is read from the JSON file at startup. The frontend does not silently substitute fake API results. No database, payment processing, or contact-data collection is included; program inquiries open Instagram.
+Test /en, /sr, /en/programs, and /sr/programs directly, along with mobile navigation, the slideshow, language switching, and contact links. No deployment or Git push is performed by the build scripts. Optimize large source photos before launching publicly.
 
-## Verification status
+## Photo attribution
 
-Builds and runtime checks have not completed: the execution environment failed permission refresh, dependency installation was blocked, and .NET restore reported an environment path error. Run the included scripts in your normal PowerShell environment to install and verify.
+When no local hero images exist, the fallback is Scott Webb's [Woman Holding Dumbbells](https://www.pexels.com/photo/woman-holding-dumbbells-136410/) under the [Pexels license](https://www.pexels.com/license/). Local trainer images replace that fallback automatically. Fonts load from Google Fonts with system fallbacks.

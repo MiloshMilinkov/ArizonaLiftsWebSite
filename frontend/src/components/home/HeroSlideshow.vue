@@ -80,7 +80,6 @@ onBeforeUnmount(() => {
       <span
         >{{ t('hero.show') }}<br /><b>{{ t('hero.yourself') }}</b></span
       >
-      <span class="round-arrow" aria-hidden="true">↗</span>
     </div>
     <figcaption v-if="activeSlide?.captionKey">{{ t(activeSlide.captionKey) }}</figcaption>
   </figure>

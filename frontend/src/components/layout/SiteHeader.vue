@@ -94,6 +94,14 @@ watch(
   transform: translateY(-8px) rotate(-45deg);
 }
 @media (max-width: 850px) {
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 15;
+    width: 100%;
+    background: var(--background);
+    box-shadow: 0 4px 18px #4430390d;
+  }
   .header .menu {
     display: inline-flex;
     align-items: center;
@@ -105,6 +113,8 @@ watch(
   }
   .header > nav {
     gap: 8px;
+    max-height: calc(100dvh - 140px);
+    overflow-y: auto;
     border-radius: 0 0 16px 16px;
     box-shadow: 0 14px 22px #44303918;
   }

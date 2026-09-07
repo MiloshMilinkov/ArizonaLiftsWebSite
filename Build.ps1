@@ -13,10 +13,4 @@ try {
     & $packageManager run build
     if ($LASTEXITCODE) { throw 'Frontend build failed.' }
 } finally { Pop-Location }
-$webRoot = Join-Path $PSScriptRoot 'backend/ArizonaLifts.Api/wwwroot'
-New-Item -ItemType Directory -Force $webRoot | Out-Null
-Copy-Item -Path (Join-Path $PSScriptRoot 'frontend/dist/*') -Destination $webRoot -Recurse -Force
-dotnet publish (Join-Path $PSScriptRoot 'backend/ArizonaLifts.Api/ArizonaLifts.Api.csproj') -c Release -o (Join-Path $PSScriptRoot 'publish')
-if ($LASTEXITCODE) { throw '.NET publish failed.' }
-Write-Host 'Built successfully. Run from publish: dotnet ArizonaLifts.Api.dll --urls http://localhost:5080'
-
+Write-Host 'Built successfully. Deploy frontend/dist to your static host.'

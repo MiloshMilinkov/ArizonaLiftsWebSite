@@ -1,4 +1,5 @@
 <script setup>
+import { MessageCircle, Mail } from '@lucide/vue'
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { contactLinks } from '@/config/site'
@@ -21,9 +22,13 @@ const emailLink = computed(() => {
     </summary>
     <div class="contact-options">
       <a :href="contactLinks.instagramMessage" target="_blank" rel="noopener noreferrer">
-        {{ t('contact.instagramMessage') }} <span aria-hidden="true">↗</span>
+        {{ t('contact.instagramMessage') }}
+        <MessageCircle class="ui-icon" aria-hidden="true" focusable="false" />
       </a>
-      <a :href="emailLink"> {{ t('contact.emailArizona') }} <span aria-hidden="true">↗</span> </a>
+      <a :href="emailLink">
+        {{ t('contact.emailArizona') }}
+        <Mail class="ui-icon" aria-hidden="true" focusable="false" />
+      </a>
     </div>
   </details>
 </template>

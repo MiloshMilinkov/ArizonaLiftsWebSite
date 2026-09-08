@@ -9,7 +9,6 @@
       "id": "basic",
       "name": "Basic",
       "category": "ONLAJN MENTORSTVO",
-      "symbol": "↗",
       "label": "Tvoja osnova za napredak",
       "description": "Personalizovan trening, plan ishrane i kontinuirana podrška.",
       "features": [
@@ -33,7 +32,6 @@
       "id": "premium",
       "name": "Premium",
       "category": "ONLAJN MENTORSTVO",
-      "symbol": "✳",
       "label": "Dodatna individualna podrška",
       "description": "Sve iz Basic paketa, uz dodatne smernice i individualne video-konsultacije.",
       "features": [
@@ -48,9 +46,8 @@
     {
       "id": "personal-mentorship",
       "type": "personal",
-      "name": "Mentorstvo 1 na 1",
+      "name": "Individualno mentorstvo",
       "category": "LIČNA PODRŠKA",
-      "symbol": "↗",
       "label": "Napreduj uz podršku",
       "description": "Ličniji pristup izgradnji samopouzdanja, doslednosti i snage.",
       "features": [

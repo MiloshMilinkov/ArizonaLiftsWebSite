@@ -811,3 +811,50 @@ h6 {
   background: var(--background);
   box-shadow: 0 4px 18px #4430390d;
 }
+
+/* Consistent decorative icons; text labels carry each link's meaning. */
+.ui-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: middle;
+  stroke-width: 1.8;
+}
+.brand i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  padding: 5px;
+  vertical-align: middle;
+}
+.brand i .ui-icon {
+  width: 24px;
+  height: 24px;
+}
+.nav-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.text-link .ui-icon {
+  margin-left: 6px;
+}
+.footer-socials a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.program-icon {
+  width: 28px;
+  height: 28px;
+  stroke-width: 1.7;
+}
+.value-icon {
+  width: 24px;
+  height: 24px;
+  stroke-width: 1.8;
+}

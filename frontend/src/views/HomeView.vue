@@ -1,4 +1,5 @@
 <script setup>
+import { Dumbbell } from '@lucide/vue'
 import { useI18n } from 'vue-i18n'
 const { t, locale } = useI18n()
 import HomeHero from '@/components/home/HomeHero.vue'
@@ -20,8 +21,8 @@ const { profile } = useSiteContent()
       <blockquote>{{ profile.quote }}</blockquote>
       <span class="small">{{ profile.quoteAttribution }}</span>
       <RouterLink class="text-link" :to="{ name: 'programs', params: { locale } }"
-        >{{ t('home.explore') }} ↗</RouterLink
-      >
+        >{{ t('home.explore') }} <Dumbbell class="ui-icon" aria-hidden="true" focusable="false"
+      /></RouterLink>
     </div>
   </section>
 </template>

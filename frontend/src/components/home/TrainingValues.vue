@@ -1,4 +1,5 @@
 <script setup>
+import { Dumbbell, Target, Footprints } from '@lucide/vue'
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
@@ -13,8 +14,12 @@ const values = ['home.stronger', 'home.progress', 'home.pace']
           class="training-values__icon"
           :class="'training-values__icon--' + index"
           aria-hidden="true"
-          >✳</span
-        >
+          ><component
+            :is="[Dumbbell, Target, Footprints][index]"
+            class="value-icon"
+            aria-hidden="true"
+            focusable="false"
+        /></span>
         <span class="training-values__text">{{ t(value) }}</span>
       </li>
     </ul>

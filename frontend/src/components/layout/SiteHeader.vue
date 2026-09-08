@@ -1,4 +1,5 @@
 <script setup>
+import { MessageCircle } from '@lucide/vue'
 import { useI18n } from 'vue-i18n'
 const { t, locale } = useI18n()
 import { onMounted, onBeforeUnmount, ref, watch } from 'vue'
@@ -32,7 +33,8 @@ watch(
 
 <template>
   <header ref="header" class="header" @keydown.esc="closeWithEscape">
-    <SiteBrand /><button
+    <SiteBrand />
+    <button
       ref="menuButton"
       type="button"
       class="menu"
@@ -62,8 +64,8 @@ watch(
         >
       </RouterLink>
       <a class="nav-cta" :href="socialLinks.instagram" target="_blank" rel="noopener noreferrer"
-        >{{ t('nav.talk') }} <span>↗</span></a
-      >
+        >{{ t('nav.talk') }} <MessageCircle class="ui-icon" aria-hidden="true" focusable="false"
+      /></a>
     </nav>
     <LanguageSwitcher />
   </header>

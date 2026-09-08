@@ -1,4 +1,5 @@
 <script setup>
+import { Dumbbell, Trophy, UserRound } from '@lucide/vue'
 import MentorshipContact from './MentorshipContact.vue'
 
 defineProps({ program: { type: Object, required: true } })
@@ -15,7 +16,13 @@ defineProps({ program: { type: Object, required: true } })
         <span class="mentorship-card__category">{{ program.category }}</span>
         <h2 :id="'program-' + program.id">{{ program.name }}</h2>
       </div>
-      <span class="mentorship-card__symbol" aria-hidden="true">{{ program.symbol }}</span>
+      <span class="mentorship-card__symbol" aria-hidden="true"
+        ><component
+          :is="program.type === 'personal' ? UserRound : program.featured ? Trophy : Dumbbell"
+          class="program-icon"
+          aria-hidden="true"
+          focusable="false"
+      /></span>
     </header>
     <p class="mentorship-card__description">{{ program.description }}</p>
     <ul class="mentorship-card__features">

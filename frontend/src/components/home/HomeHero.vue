@@ -1,4 +1,5 @@
 <script setup>
+import { Dumbbell, UserRound } from '@lucide/vue'
 import { useI18n } from 'vue-i18n'
 const { t, locale } = useI18n()
 import { socialLinks } from '@/config/site'
@@ -18,10 +19,11 @@ import HeroSlideshow from './HeroSlideshow.vue'
       <RouterLink
         class="button primary hero-program-cta"
         :to="{ name: 'programs', params: { locale } }"
-        >{{ t('hero.program') }} <span>↗</span></RouterLink
+        >{{ t('hero.program') }}
+        <Dumbbell class="ui-icon" aria-hidden="true" focusable="false" /></RouterLink
       ><a class="text-link" :href="socialLinks.instagram" target="_blank" rel="noopener noreferrer"
-        >{{ t('hero.about') }} ↗</a
-      >
+        >{{ t('hero.about') }} <UserRound class="ui-icon" aria-hidden="true" focusable="false"
+      /></a>
     </div>
     <HeroSlideshow />
   </section>

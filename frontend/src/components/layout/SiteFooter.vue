@@ -1,4 +1,5 @@
 <script setup>
+import { Camera, Music } from '@lucide/vue'
 import { useI18n } from 'vue-i18n'
 const { t, locale } = useI18n()
 import SiteBrand from './SiteBrand.vue'
@@ -11,8 +12,12 @@ import { socialLinks } from '@/config/site'
       <SiteBrand />
       <p>{{ t('footer.tagline') }}</p>
       <div class="footer-socials">
-        <a :href="socialLinks.instagram" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
-        <a :href="socialLinks.tiktok" target="_blank" rel="noopener noreferrer">TikTok ↗</a>
+        <a :href="socialLinks.instagram" target="_blank" rel="noopener noreferrer"
+          >Instagram <Camera class="ui-icon" aria-hidden="true" focusable="false"
+        /></a>
+        <a :href="socialLinks.tiktok" target="_blank" rel="noopener noreferrer"
+          >TikTok <Music class="ui-icon" aria-hidden="true" focusable="false"
+        /></a>
       </div>
     </div>
     <div class="footer-bottom">

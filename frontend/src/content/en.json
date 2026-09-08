@@ -9,7 +9,6 @@
       "id": "basic",
       "name": "Basic",
       "category": "ONLINE MENTORSHIP",
-      "symbol": "↗",
       "label": "Your foundation for progress",
       "description": "Personalized training, a meal plan, and ongoing support.",
       "features": [
@@ -33,7 +32,6 @@
       "id": "premium",
       "name": "Premium",
       "category": "ONLINE MENTORSHIP",
-      "symbol": "✳",
       "label": "Additional individual support",
       "description": "Everything in Basic, with additional guidance and individual video consultations.",
       "features": [
@@ -48,9 +46,8 @@
     {
       "id": "personal-mentorship",
       "type": "personal",
-      "name": "1:1 mentorship",
+      "name": "Individual mentorship",
       "category": "PERSONAL SUPPORT",
-      "symbol": "↗",
       "label": "Grow with guidance",
       "description": "A more personal approach to building confidence, consistency, and strength.",
       "features": [

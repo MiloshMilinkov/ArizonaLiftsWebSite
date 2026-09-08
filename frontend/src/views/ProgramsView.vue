@@ -1,4 +1,5 @@
 <script setup>
+import { MessageCircle } from '@lucide/vue'
 import { useI18n } from 'vue-i18n'
 import { computed } from 'vue'
 const { t } = useI18n()
@@ -56,8 +57,8 @@ const personalPrograms = computed(() =>
       :href="socialLinks.instagram"
       target="_blank"
       rel="noopener noreferrer"
-      >{{ t('contact.talk') }} <span>↗</span></a
-    >
+      >{{ t('contact.talk') }} <MessageCircle class="ui-icon" aria-hidden="true" focusable="false"
+    /></a>
   </section>
 </template>
 

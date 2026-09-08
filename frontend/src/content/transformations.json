@@ -70,5 +70,44 @@
     },
     "width": 1179,
     "height": 1262
+  },
+  {
+    "id": "transformation-7",
+    "image": "/images/transformations/transformation-07.jpeg",
+    "source": "WhatsApp Image 2026-09-08 at 12.17.32 AM.jpeg",
+    "en": {
+      "alt": "Side-by-side progress photos after one month of mentorship"
+    },
+    "sr": {
+      "alt": "Uporedne fotografije napretka nakon mesec dana mentorstva"
+    },
+    "width": 423,
+    "height": 744
+  },
+  {
+    "id": "transformation-8",
+    "image": "/images/transformations/transformation-08.jpeg",
+    "source": "WhatsApp Image 2026-09-08 at 12.21.39 AM.jpeg",
+    "en": {
+      "alt": "Client progress comparison in a black sports top"
+    },
+    "sr": {
+      "alt": "Poređenje napretka klijentkinje u crnom sportskom topu"
+    },
+    "width": 2048,
+    "height": 2048
+  },
+  {
+    "id": "transformation-9",
+    "image": "/images/transformations/transformation-09.jpeg",
+    "source": "WhatsApp Image 2026-09-08 at 12.21.40 AM.jpeg",
+    "en": {
+      "alt": "Two photos showing client back progress"
+    },
+    "sr": {
+      "alt": "Dve fotografije napretka leđa klijentkinje"
+    },
+    "width": 1152,
+    "height": 2048
   }
 ]

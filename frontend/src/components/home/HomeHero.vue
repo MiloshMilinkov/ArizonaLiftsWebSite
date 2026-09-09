@@ -2,7 +2,6 @@
 import { Dumbbell, UserRound } from '@lucide/vue'
 import { useI18n } from 'vue-i18n'
 const { t, locale } = useI18n()
-import { socialLinks } from '@/config/site'
 import HeroSlideshow from './HeroSlideshow.vue'
 </script>
 
@@ -21,9 +20,11 @@ import HeroSlideshow from './HeroSlideshow.vue'
         :to="{ name: 'programs', params: { locale } }"
         >{{ t('hero.program') }}
         <Dumbbell class="ui-icon" aria-hidden="true" focusable="false" /></RouterLink
-      ><a class="text-link" :href="socialLinks.instagram" target="_blank" rel="noopener noreferrer"
+      ><RouterLink
+        class="text-link"
+        :to="{ name: 'home', params: { locale }, hash: '#about-kristina' }"
         >{{ t('hero.about') }} <UserRound class="ui-icon" aria-hidden="true" focusable="false"
-      /></a>
+      /></RouterLink>
     </div>
     <HeroSlideshow />
   </section>

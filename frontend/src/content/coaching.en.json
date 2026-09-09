@@ -1,0 +1,76 @@
+{
+  "aboutLabel": "MEET YOUR TRAINER",
+  "aboutTitle": "Get to know Kristina",
+  "about": [
+    "Kristina is the trainer behind Arizona Lifts, offering online fitness mentorship and in-person training. Her approach combines a personalized training plan, guidance on exercise technique, nutrition support, and regular progress check-ins.",
+    "The plan starts with your goals, starting point, and what fits into your routine. Through exercise videos, feedback on your training clips, and ongoing support, you have guidance as you build strength and consistency."
+  ],
+  "photoAlt": "Kristina, the trainer behind Arizona Lifts",
+  "audienceTitle": "Find support for your starting point",
+  "audience": [
+    {
+      "title": "Building a routine",
+      "text": "A personalized plan and exercise demonstrations give your training structure. Share your experience and goals with Kristina to find the right starting point."
+    },
+    {
+      "title": "Returning to training",
+      "text": "Build consistency with a plan that takes your commitments into account and adjusts as you progress."
+    },
+    {
+      "title": "Working on strength and technique",
+      "text": "Get feedback on your exercise videos, follow your progress, and develop your training with regular support."
+    }
+  ],
+  "stepsTitle": "How online mentorship works",
+  "steps": [
+    {
+      "title": "Start a conversation",
+      "text": "Choose a package and contact Kristina on Instagram or by email. Share your goals and discuss which level of support fits you."
+    },
+    {
+      "title": "Assess and plan",
+      "text": "Your starting point, goals, and capabilities shape your personalized training plan in the app and seven-day meal plan."
+    },
+    {
+      "title": "Train with guidance",
+      "text": "Follow the exercise demonstrations, send training clips for technique feedback, and use for ongoing support."
+    },
+    {
+      "title": "Check in and adjust",
+      "text": "Regular weekly check-ins track progress. Your plan is adjusted to your progress and commitments."
+    }
+  ],
+  "faqTitle": "Questions before you start?",
+  "faq": [
+    {
+      "q": "Is online mentorship suitable for beginners?",
+      "a": "The plan starts with an assessment of your starting point, goals, and capabilities. Exercise demonstrations and video technique checks provide guidance. Tell Kristina about your experience so you can discuss a suitable starting point."
+    },
+    {
+      "q": "Can I train at home, and what equipment do I need?",
+      "a": "Tell Kristina where you plan to train and what equipment you have when you get in touch. Discuss whether the plan can fit your setup before choosing a package."
+    },
+    {
+      "q": "How do check-ins and technique reviews work?",
+      "a": "Online mentorship includes regular weekly progress check-ins, technique checks through your exercise videos, and ongoing support. Your plan is adjusted as you progress."
+    },
+    {
+      "q": "What nutrition support is included?",
+      "a": "Basic includes a personalized seven-day meal plan, a nutrition handbook with over 100 recipes, an e-book on carbohydrates, and a wellness journal. Advanced and Premium also include tracking your eating habits with specific guidance.",
+      "nutrition": true
+    },
+    {
+      "q": "What is the difference between Basic, Advanced, and Premium?",
+      "a": "Basic includes personalized training, nutrition resources, weekly check-ins, and support. Advanced adds eating-habit guidance and one individual 30-minute video consultation per month. Premium includes everything in Advanced plus one in-person training session.",
+      "nutrition": true
+    },
+    {
+      "q": "Where does in-person training take place?",
+      "a": "Contact Kristina to confirm the training location, availability, and session arrangements before booking. This also applies to the in-person session included in Premium."
+    },
+    {
+      "q": "How do I get started?",
+      "a": "Select “Ask about mentorship” on a package, then choose Instagram or email. The email option includes the package name in the subject so you can discuss the right support with Kristina."
+    }
+  ]
+}

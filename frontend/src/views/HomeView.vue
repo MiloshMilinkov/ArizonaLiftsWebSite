@@ -3,6 +3,7 @@ import { Dumbbell } from '@lucide/vue'
 import { useI18n } from 'vue-i18n'
 const { t, locale } = useI18n()
 import HomeHero from '@/components/home/HomeHero.vue'
+import CoachingGuide from '@/components/home/CoachingGuide.vue'
 import TrainingValues from '@/components/home/TrainingValues.vue'
 import { useSiteContent } from '@/composables/useSiteContent'
 const { profile } = useSiteContent()
@@ -25,4 +26,5 @@ const { profile } = useSiteContent()
       /></RouterLink>
     </div>
   </section>
+  <CoachingGuide />
 </template>

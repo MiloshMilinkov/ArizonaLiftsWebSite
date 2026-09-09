@@ -1,0 +1,76 @@
+{
+  "aboutLabel": "UPOZNAJ SVOG TRENERA",
+  "aboutTitle": "Upoznaj Kristinu",
+  "about": [
+    "Kristina je trener iza Arizona Lifts brenda i pruža onlajn fitnes mentorstvo i treninge uživo. Njen pristup spaja personalizovan plan treninga, smernice za tehniku izvođenja vežbi, podršku u ishrani i redovno praćenje napretka.",
+    "Plan polazi od tvojih ciljeva, početnog stanja i obaveza. Uz video-prikaze vežbi, povratne informacije na snimke treninga i kontinuiranu podršku, imaš smernice dok gradiš snagu i doslednost."
+  ],
+  "photoAlt": "Kristina, trener iza Arizona Lifts brenda",
+  "audienceTitle": "Podrška za tvoju polaznu tačku",
+  "audience": [
+    {
+      "title": "Gradiš rutinu",
+      "text": "Personalizovan plan i video-prikazi vežbi daju strukturu tvom treningu. Podeli iskustvo i ciljeve sa Kristinom da zajedno pronađete odgovarajući početak."
+    },
+    {
+      "title": "Vraćaš se treninzima",
+      "text": "Gradi doslednost uz plan koji uzima u obzir tvoje obaveze i prilagođava se tvom napretku."
+    },
+    {
+      "title": "Radiš na snazi i tehnici",
+      "text": "Dobij povratne informacije na snimke vežbi, prati napredak i razvijaj svoj trening uz redovnu podršku."
+    }
+  ],
+  "stepsTitle": "Kako funkcioniše onlajn mentorstvo",
+  "steps": [
+    {
+      "title": "Počni razgovorom",
+      "text": "Izaberi paket i javi se Kristini preko Instagrama ili imejla. Podeli ciljeve i razgovarajte o nivou podrške koji ti odgovara."
+    },
+    {
+      "title": "Procena i plan",
+      "text": "Tvoje početno stanje, ciljevi i mogućnosti oblikuju personalizovan plan treninga u aplikaciji i sedmodnevni plan ishrane."
+    },
+    {
+      "title": "Treniraj uz smernice",
+      "text": "Prati video-prikaze vežbi, šalji snimke radi provere tehnike i imaj kontinuiranu podršku."
+    },
+    {
+      "title": "Praćenje i prilagođavanje",
+      "text": "Redovni nedeljni check-in služi praćenju napretka. Plan se prilagođava tvom napretku i obavezama."
+    }
+  ],
+  "faqTitle": "Pitanja pre početka?",
+  "faq": [
+    {
+      "q": "Da li je onlajn mentorstvo za početnike?",
+      "a": "Plan počinje analizom tvog početnog stanja, ciljeva i mogućnosti. Video-prikazi vežbi i provera tehnike putem snimaka pružaju smernice. Reci Kristini koliko iskustva imaš da razgovarate o odgovarajućem početku."
+    },
+    {
+      "q": "Mogu li da treniram kod kuće i koja oprema mi je potrebna?",
+      "a": "Kada se javiš, reci Kristini gde planiraš da treniraš i koju opremu imaš. Pre izbora paketa proveri da li plan može da se uklopi u tvoje uslove."
+    },
+    {
+      "q": "Kako funkcionišu praćenje napretka i provera tehnike?",
+      "a": "Onlajn mentorstvo uključuje redovne nedeljne provere napretka, proveru tehnike putem snimaka vežbi i kontinuiranu podršku. Plan se prilagođava kako napreduješ."
+    },
+    {
+      "q": "Koja podrška u ishrani je uključena?",
+      "a": "Basic uključuje personalizovan sedmodnevni plan ishrane, priručnik o ishrani sa više od 100 recepata, e-knjigu o ugljenim hidratima i wellness dnevnik. Advanced i Premium uključuju i praćenje navika u ishrani uz konkretne smernice.",
+      "nutrition": true
+    },
+    {
+      "q": "Koja je razlika između Basic, Advanced i Premium paketa?",
+      "a": "Basic uključuje personalizovan trening, materijale o ishrani, nedeljno praćenje i podršku. Advanced dodaje smernice za navike u ishrani i jednu individualnu video-konsultaciju mesečno u trajanju od 30 minuta. Premium obuhvata sve iz Advanced paketa uz jedan trening uživo.",
+      "nutrition": true
+    },
+    {
+      "q": "Gde se održavaju treninzi uživo?",
+      "a": "Javi se Kristini da pre zakazivanja potvrdite lokaciju, dostupne termine i dogovor za trening. To važi i za trening uživo koji je uključen u Premium paket."
+    },
+    {
+      "q": "Kako da počnem?",
+      "a": "Izaberi „Raspitaj se o mentorstvu” na željenom paketu, pa Instagram ili imejl. Imejl već sadrži naziv paketa u naslovu kako bi sa Kristinom razgovarao/la o odgovarajućoj podršci."
+    }
+  ]
+}

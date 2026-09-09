@@ -24,7 +24,7 @@
     "line1": "Built by you.",
     "line2": "Stronger",
     "line3": "together.",
-    "description": "A little guidance. A lot of growth. Make space for a stronger, more confident you — one workout at a time.",
+    "description": "Online fitness mentorship and in-person training with Kristina. Personalized training plans, technique guidance, nutrition support, and regular check-ins to help you build strength and consistency.",
     "program": "Find your program",
     "about": "Get to know Kristina",
     "purpose": "STRENGTH WITH PURPOSE",
@@ -67,7 +67,7 @@
     "for": "Who is this for?",
     "ask": "Ask about mentorship",
     "personalTitle": "In-person mentorship",
-    "personalDescription": "Train together in person, with individual guidance for your goals and technique.",
+    "personalDescription": "Train together in person, with guidance for your goals and technique. Contact Kristina to confirm the location and available times before booking.",
     "recommended": "Recommended"
   },
   "contact": {
@@ -100,5 +100,12 @@
     "commentImageAlt": "Original client message: {title}",
     "readTranslation": "Read the English translation",
     "readTranscript": "Read the message"
+  },
+  "nutrition": {
+    "title": "About nutrition guidance",
+    "short": "Kristina is a fitness trainer, not a nutritionist or dietitian. Meal plans and nutrition guidance are educational support for general fitness, not medical nutrition advice.",
+    "detail": "They do not replace advice from a qualified nutrition professional or doctor. If you have a medical condition, food allergies, or special dietary needs, consult an appropriately qualified professional before making dietary changes.",
+    "button": "Disclaimer",
+    "close": "Close disclaimer"
   }
 }

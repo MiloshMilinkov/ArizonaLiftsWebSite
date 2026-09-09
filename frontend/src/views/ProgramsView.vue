@@ -3,6 +3,7 @@ import { MessageCircle } from '@lucide/vue'
 import { useI18n } from 'vue-i18n'
 import { computed } from 'vue'
 const { t } = useI18n()
+import CoachingFaq from '@/components/programs/CoachingFaq.vue'
 import ProgramCard from '@/components/programs/ProgramCard.vue'
 import { socialLinks } from '@/config/site'
 import { useSiteContent } from '@/composables/useSiteContent'
@@ -46,6 +47,7 @@ const personalPrograms = computed(() =>
       <ProgramCard v-for="program in personalPrograms" :key="program.id" :program="program" />
     </div>
   </section>
+  <CoachingFaq />
   <section class="contact-strip">
     <div>
       <span class="eyebrow">{{ t('contact.fit') }}</span>

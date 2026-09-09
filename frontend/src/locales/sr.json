@@ -24,7 +24,7 @@
     "line1": "Tvoj trud.",
     "line2": "Više snage",
     "line3": "zajedno.",
-    "description": "Malo podrške. Mnogo napretka. Pronađi prostor za više snage i samopouzdanja — trening po trening.",
+    "description": "Onlajn fitnes mentorstvo i treninzi uživo sa Kristinom. Personalizovani planovi treninga, smernice za tehniku, podrška u ishrani i redovno praćenje za više snage i doslednosti.",
     "program": "Pronađi svoj program",
     "about": "Upoznaj Kristinu",
     "purpose": "SNAGA SA CILJEM",
@@ -67,7 +67,7 @@
     "for": "Kome je namenjeno?",
     "ask": "Raspitaj se o mentorstvu",
     "personalTitle": "Mentorstvo uživo",
-    "personalDescription": "Treniraj sa Kristinom uživo, uz individualne smernice za tvoje ciljeve i tehniku.",
+    "personalDescription": "Treniraj sa Kristinom uživo, uz smernice za tvoje ciljeve i tehniku. Pre zakazivanja javi se da potvrdite lokaciju i dostupne termine.",
     "recommended": "Preporučeni izbor"
   },
   "contact": {
@@ -100,5 +100,12 @@
     "commentImageAlt": "Originalna poruka klijentkinje: {title}",
     "readTranslation": "Pročitaj prevod na engleski",
     "readTranscript": "Pročitaj poruku"
+  },
+  "nutrition": {
+    "title": "O smernicama za ishranu",
+    "short": "Kristina je fitnes trener, nije nutricionista ni dijetetičar. Planovi ishrane i smernice služe kao edukativna podrška opštem fitnesu, a ne kao medicinski saveti o ishrani.",
+    "detail": "Ne zamenjuju savet kvalifikovanog stručnjaka za ishranu ili lekara. Ako imaš zdravstveno stanje, alergije na hranu ili posebne potrebe u ishrani, posavetuj se sa odgovarajućim stručnjakom pre promene ishrane.",
+    "button": "Napomena",
+    "close": "Zatvori napomenu"
   }
 }

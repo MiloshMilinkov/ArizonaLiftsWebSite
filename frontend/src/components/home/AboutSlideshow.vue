@@ -1,5 +1,5 @@
 <script setup>
-import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { onBeforeUnmount, onMounted, ref } from 'vue'
 import { Pause, Play } from '@lucide/vue'
 import { slideIntervalMs } from '@/config/heroSlides'
 defineProps({ content: { type: Object, required: true } })
@@ -13,7 +13,6 @@ const hovering = ref(false)
 const focused = ref(false)
 const visible = ref(false)
 const gallery = ref(null)
-const current = computed(() => photos[active.value])
 let timer, observer, motion
 function select(index) {
   active.value = index
@@ -68,7 +67,6 @@ onBeforeUnmount(() => {
     </div>
     <figcaption>
       <span class="eyebrow">{{ content.galleryCaption }}</span>
-      <p>{{ content.photoLabels[current.label] }}</p>
     </figcaption>
     <div class="photo-controls">
       <button
@@ -128,10 +126,6 @@ onBeforeUnmount(() => {
 }
 figcaption {
   padding: 24px 12px 0;
-}
-figcaption p {
-  margin: 10px 0 0;
-  color: var(--muted);
 }
 .photo-controls {
   display: flex;

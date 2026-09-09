@@ -58,16 +58,17 @@
     "chapter": "PODRŠKA NA TVOM PUTU",
     "goals": "Onlajn",
     "forward": "mentorstvo",
-    "support": "Dva paketa. Tvoji ciljevi u centru pažnje.",
-    "fit": "Uporedi Basic i Premium i izaberi podršku za sebe.",
-    "note": "Premium obuhvata sve pogodnosti Basic paketa, uz dodatnu individualnu podršku.",
+    "support": "Tri paketa. Tvoji ciljevi u centru pažnje.",
+    "fit": "Uporedi Basic, Advanced i Premium i izaberi podršku za sebe.",
+    "note": "Advanced obuhvata sve pogodnosti Basic paketa. Premium dodaje jedan trening uživo uz sve iz Advanced paketa.",
     "loading": "Učitavanje programa…",
     "error": "Programi nisu učitani. Pokušaj ponovo ili se javi putem Instagrama.",
     "empty": "Novi programi su u pripremi. Za više informacija javi se putem Instagrama.",
     "for": "Kome je namenjeno?",
     "ask": "Raspitaj se o mentorstvu",
-    "personalTitle": "Personalno mentorstvo",
-    "personalDescription": "Individualna podrška za tvoje ciljeve, rutinu i napredak."
+    "personalTitle": "Mentorstvo uživo",
+    "personalDescription": "Treniraj sa Kristinom uživo, uz individualne smernice za tvoje ciljeve i tehniku.",
+    "recommended": "Preporučeni izbor"
   },
   "contact": {
     "fit": "PRONAĐIMO TVOJ PRAVAC",

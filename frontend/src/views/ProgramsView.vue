@@ -88,14 +88,17 @@ const personalPrograms = computed(() =>
 }
 .mentorship-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
-  max-width: 1120px;
+  max-width: 1360px;
+  padding-top: 16px;
   margin: 0 auto;
 }
-@media (max-width: 760px) {
+@media (max-width: 1100px) {
   .mentorship-grid {
     grid-template-columns: 1fr;
+    max-width: 720px;
+    gap: 40px;
   }
 }
 .personal-mentorship__heading {

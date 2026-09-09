@@ -58,16 +58,17 @@
     "chapter": "SUPPORT FOR YOUR JOURNEY",
     "goals": "Online",
     "forward": "mentorship",
-    "support": "Two packages. Your goals at the center.",
-    "fit": "Compare Basic and Premium to find your level of support.",
-    "note": "Premium includes every Basic benefit, with additional individual support.",
+    "support": "Three packages. Your goals at the center.",
+    "fit": "Compare Basic, Advanced, and Premium to find your level of support.",
+    "note": "Advanced includes every Basic benefit. Premium adds one in-person training session to everything in Advanced.",
     "loading": "Loading programs…",
     "error": "We couldn’t load the programs. Please try again, or get in touch on Instagram.",
     "empty": "New programs are on the way. Get in touch on Instagram to learn more.",
     "for": "Who is this for?",
     "ask": "Ask about mentorship",
-    "personalTitle": "Personal mentorship",
-    "personalDescription": "Individual support for your goals, routine, and progress."
+    "personalTitle": "In-person mentorship",
+    "personalDescription": "Train together in person, with individual guidance for your goals and technique.",
+    "recommended": "Recommended"
   },
   "contact": {
     "fit": "LET’S FIND YOUR FIT",

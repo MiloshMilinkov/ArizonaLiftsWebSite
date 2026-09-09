@@ -29,8 +29,8 @@
       "type": "online"
     },
     {
-      "id": "premium",
-      "name": "Premium",
+      "id": "advanced",
+      "name": "Advanced",
       "category": "ONLINE MENTORSHIP",
       "label": "Additional individual support",
       "description": "Everything in Basic, with additional guidance and individual video consultations.",
@@ -44,12 +44,28 @@
       "type": "online"
     },
     {
+      "id": "premium",
+      "name": "Premium",
+      "category": "ONLINE MENTORSHIP",
+      "label": "Online support with an in-person session",
+      "description": "All Basic and Advanced benefits, plus one in-person training session.",
+      "features": [
+        "Everything included in Basic and Advanced",
+        "Tracking your eating habits with specific guidance",
+        "One individual 30-minute video consultation per month — a workout over video call or professional feedback on your current condition and progress",
+        "One in-person training session"
+      ],
+      "suitedFor": "",
+      "featured": false,
+      "type": "online"
+    },
+    {
       "id": "personal-mentorship",
       "type": "personal",
-      "name": "Individual mentorship",
-      "category": "PERSONAL SUPPORT",
+      "name": "In-person mentorship",
+      "category": "IN-PERSON TRAINING",
       "label": "Grow with guidance",
-      "description": "A more personal approach to building confidence, consistency, and strength.",
+      "description": "Train together in person, with guidance tailored to your goals, technique, and progress.",
       "features": [
         "Training built around your goals",
         "Accountability and check-ins",

@@ -29,8 +29,8 @@
       "type": "online"
     },
     {
-      "id": "premium",
-      "name": "Premium",
+      "id": "advanced",
+      "name": "Advanced",
       "category": "ONLAJN MENTORSTVO",
       "label": "Dodatna individualna podrška",
       "description": "Sve iz Basic paketa, uz dodatne smernice i individualne video-konsultacije.",
@@ -44,12 +44,28 @@
       "type": "online"
     },
     {
+      "id": "premium",
+      "name": "Premium",
+      "category": "ONLAJN MENTORSTVO",
+      "label": "Onlajn podrška uz trening uživo",
+      "description": "Sve pogodnosti Basic i Advanced paketa, uz jedan trening uživo.",
+      "features": [
+        "Sve što obuhvataju Basic i Advanced paketi",
+        "Praćenje navika u ishrani i konkretne smernice",
+        "Jedna individualna video-konsultacija mesečno u trajanju od 30 minuta — trening preko video-poziva ili stručno komentarisanje trenutnog stanja i napretka",
+        "Jedan trening uživo"
+      ],
+      "suitedFor": "",
+      "featured": false,
+      "type": "online"
+    },
+    {
       "id": "personal-mentorship",
       "type": "personal",
-      "name": "Individualno mentorstvo",
-      "category": "LIČNA PODRŠKA",
+      "name": "Mentorstvo uživo",
+      "category": "TRENING UŽIVO",
       "label": "Napreduj uz podršku",
-      "description": "Ličniji pristup izgradnji samopouzdanja, doslednosti i snage.",
+      "description": "Treniraj sa Kristinom uživo, uz smernice prilagođene tvojim ciljevima, tehnici i napretku.",
       "features": [
         "Trening prilagođen tvojim ciljevima",
         "Podrška i redovno praćenje",

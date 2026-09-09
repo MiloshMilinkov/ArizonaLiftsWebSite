@@ -1,5 +1,7 @@
 <script setup>
 import { Dumbbell, Trophy, UserRound } from '@lucide/vue'
+import { useI18n } from 'vue-i18n'
+const { t } = useI18n()
 import MentorshipContact from './MentorshipContact.vue'
 
 defineProps({ program: { type: Object, required: true } })
@@ -8,9 +10,12 @@ defineProps({ program: { type: Object, required: true } })
 <template>
   <article
     class="mentorship-card"
-    :class="{ 'mentorship-card--premium': program.featured }"
+    :class="{ 'mentorship-card--featured': program.featured }"
     :aria-labelledby="'program-' + program.id"
   >
+    <span v-if="program.featured" class="mentorship-card__badge">{{
+      t('programs.recommended')
+    }}</span>
     <header class="mentorship-card__header">
       <div>
         <span class="mentorship-card__category">{{ program.category }}</span>
@@ -37,16 +42,19 @@ defineProps({ program: { type: Object, required: true } })
 
 <style scoped>
 .mentorship-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   min-width: 0;
-  padding: clamp(24px, 3.5vw, 48px);
+  padding: clamp(24px, 2.2vw, 36px);
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 16px;
 }
-.mentorship-card--premium {
+.mentorship-card--featured {
   background: var(--rose);
+  border: 2px solid var(--accent-text);
+  box-shadow: 0 12px 32px #884b6020;
 }
 .mentorship-card__header {
   display: flex;
@@ -63,21 +71,21 @@ defineProps({ program: { type: Object, required: true } })
   margin-bottom: 12px;
 }
 .mentorship-card h2 {
-  font-size: clamp(2.5rem, 4vw, 3.6rem);
+  font-size: clamp(2rem, 2.8vw, 3rem);
   text-transform: uppercase;
 }
 .mentorship-card__symbol {
   display: grid;
   place-items: center;
   flex-shrink: 0;
-  width: 56px;
-  height: 56px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   background: var(--sand);
   color: var(--ink);
   font-size: 2rem;
 }
-.mentorship-card--premium .mentorship-card__symbol {
+.mentorship-card--featured .mentorship-card__symbol {
   background: var(--accent);
 }
 .mentorship-card__description {
@@ -110,7 +118,21 @@ defineProps({ program: { type: Object, required: true } })
   color: var(--accent-text);
   font-weight: 700;
 }
-.mentorship-card--premium .mentorship-card__features li:first-child {
+.mentorship-card--featured .mentorship-card__features li:first-child {
   font-weight: 700;
+}
+.mentorship-card__badge {
+  position: absolute;
+  top: -16px;
+  left: 24px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: var(--accent-text);
+  color: var(--on-dark);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.mentorship-card__header > div {
+  min-width: 0;
 }
 </style>

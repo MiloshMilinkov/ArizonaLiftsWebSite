@@ -9,14 +9,19 @@ test('both languages preserve online and personal mentorship content', () => {
     assert.ok(content.profile.quote)
     assert.deepEqual(
       content.programs.map((p) => p.id),
-      ['basic', 'premium', 'personal-mentorship'],
+      ['basic', 'advanced', 'premium', 'personal-mentorship'],
     )
     assert.deepEqual(
       content.programs.map((p) => p.type),
-      ['online', 'online', 'personal'],
+      ['online', 'online', 'online', 'personal'],
     )
     assert.equal(content.programs[0].features.length, 11)
     assert.equal(content.programs[1].features.length, 3)
+    assert.deepEqual(
+      content.programs.filter((p) => p.featured).map((p) => p.id),
+      ['advanced'],
+    )
+    assert.equal(content.programs[2].features.length, 4)
     assert.ok(content.programs.every((p) => !Object.hasOwn(p, 'price')))
   }
 })
@@ -38,7 +43,7 @@ test('content remains available with network access disabled', () => {
   }
   try {
     assert.equal(getSiteContent('en').programs[0].name, 'Basic')
-    assert.equal(getSiteContent('sr').programs[1].name, 'Premium')
+    assert.equal(getSiteContent('sr').programs[1].name, 'Advanced')
   } finally {
     globalThis.fetch = originalFetch
   }

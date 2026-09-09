@@ -1,18 +1,16 @@
 <script setup>
 import NutritionDisclaimer from '@/components/common/NutritionDisclaimer.vue'
 import { useCoachingContent } from '@/composables/useCoachingContent'
-import { heroSlides } from '@/config/heroSlides'
+import AboutSlideshow from './AboutSlideshow.vue'
 const content = useCoachingContent()
-const photo = heroSlides.find((slide) => slide.id !== 'stock-training')
 </script>
 <template>
   <section id="about-kristina" class="coaching-about" aria-labelledby="about-title">
-    <img v-if="photo" :src="photo.src" :alt="content.photoAlt" loading="lazy" decoding="async" />
+    <AboutSlideshow :content="content" />
     <div>
       <span class="eyebrow">{{ content.aboutLabel }}</span>
       <h2 id="about-title">{{ content.aboutTitle }}</h2>
       <p v-for="paragraph in content.about" :key="paragraph">{{ paragraph }}</p>
-      <NutritionDisclaimer />
     </div>
   </section>
   <section class="coaching-section" aria-labelledby="audience-title">
@@ -51,13 +49,6 @@ const photo = heroSlides.find((slide) => slide.id !== 'stock-training')
   align-items: center;
   gap: 6%;
   scroll-margin-top: 120px;
-}
-.coaching-about img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  border-radius: 20px;
 }
 h2 {
   font-size: clamp(2rem, 4vw, 3.4rem);
@@ -121,9 +112,6 @@ li {
   }
   .coaching-about {
     gap: 32px;
-  }
-  .coaching-about img {
-    max-height: 420px;
   }
   .coaching-steps {
     border-radius: 0;

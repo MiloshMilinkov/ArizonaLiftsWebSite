@@ -1,31 +1,34 @@
 {
-  "aboutLabel": "UPOZNAJ SVOG TRENERA",
-  "aboutTitle": "Upoznaj Kristinu",
+  "aboutLabel": "MOJA PRIČA",
+  "aboutTitle": "Upoznaj me",
   "about": [
-    "Kristina je trener iza Arizona Lifts brenda i pruža onlajn fitnes mentorstvo i treninge uživo. Njen pristup spaja personalizovan plan treninga, smernice za tehniku izvođenja vežbi, podršku u ishrani i redovno praćenje napretka.",
-    "Plan polazi od tvojih ciljeva, početnog stanja i obaveza. Uz video-prikaze vežbi, povratne informacije na snimke treninga i kontinuiranu podršku, imaš smernice dok gradiš snagu i doslednost."
+    "Ja sam Kristina Arizanović, licencirani fitnes trener i onlajn mentor. Diplomirani politikolog na papiru, ali fitnes trener u srcu.",
+    "Moja ljubav prema fitnesu počela je pre pet godina, kada sam se borila sa viškom kilograma i manjkom samopouzdanja. Znam koliko je volje i discipline potrebno za promenu. Trening me je promenio, ne samo fizički već i mentalno.",
+    "Fitnes trener sam više od tri godine i pomogla sam više od 100 ljudi da izgrade telo, snagu i samopouzdanje. Moj cilj je da te naučim kako da treniraš pametno, jedeš bez griže savesti i uživaš u procesu.",
+    "Danas kroz svoj rad spajam ono što sam naučila kroz edukaciju, lično iskustvo i rad sa klijentkinjama. Sertifikat sam stekla u Savezu za fitnes i rekreaciju Srbije.",
+    "Tu sam da ti pomognem da dostigneš svoj cilj, zavoliš trening i izgradiš navike koje traju."
   ],
   "photoAlt": "Kristina, trener iza Arizona Lifts brenda",
-  "audienceTitle": "Podrška za tvoju polaznu tačku",
+  "audienceTitle": "Tvoj cilj, naš zajednički plan",
   "audience": [
     {
-      "title": "Gradiš rutinu",
-      "text": "Personalizovan plan i video-prikazi vežbi daju strukturu tvom treningu. Podeli iskustvo i ciljeve sa Kristinom da zajedno pronađete odgovarajući početak."
+      "title": "Mršavljenje",
+      "text": "Želiš da skineš višak kilograma? Zajedno gradimo plan treninga i navike koje se uklapaju u tvoj život, uz postepen napredak i redovnu podršku."
     },
     {
-      "title": "Vraćaš se treninzima",
-      "text": "Gradi doslednost uz plan koji uzima u obzir tvoje obaveze i prilagođava se tvom napretku."
+      "title": "Oblikovanje i zatezanje",
+      "text": "Kroz trening snage radimo na izgradnji mišića i smanjenju masnog tkiva — telesnoj rekompoziciji. Fokus je na napretku, tehnici i tome kako se osećaš u svom telu."
     },
     {
-      "title": "Radiš na snazi i tehnici",
-      "text": "Dobij povratne informacije na snimke vežbi, prati napredak i razvijaj svoj trening uz redovnu podršku."
+      "title": "Navike koje traju",
+      "text": "Bilo da tek počinješ ili se vraćaš treninzima, gradimo održivu rutinu koja prati tvoje obaveze. Korak po korak, do više snage i doslednosti."
     }
   ],
   "stepsTitle": "Kako funkcioniše onlajn mentorstvo",
   "steps": [
     {
       "title": "Počni razgovorom",
-      "text": "Izaberi paket i javi se Kristini preko Instagrama ili imejla. Podeli ciljeve i razgovarajte o nivou podrške koji ti odgovara."
+      "text": "Izaberi paket i javi mi se preko Instagrama ili imejla. Razgovaramo o tvom cilju, bilo da je to mršavljenje, telesna rekompozicija ili stvaranje održive rutine, i biramo podršku koja ti odgovara."
     },
     {
       "title": "Procena i plan",
@@ -33,7 +36,7 @@
     },
     {
       "title": "Treniraj uz smernice",
-      "text": "Prati video-prikaze vežbi, šalji snimke radi provere tehnike i imaj kontinuiranu podršku."
+      "text": "Prati video-prikaze vežbi i šalji snimke radi provere tehnike tokom nedeljnih provera napretka. Advanced i Premium uključuju i podršku porukama između nedeljnih provera."
     },
     {
       "title": "Praćenje i prilagođavanje",
@@ -52,7 +55,7 @@
     },
     {
       "q": "Kako funkcionišu praćenje napretka i provera tehnike?",
-      "a": "Onlajn mentorstvo uključuje redovne nedeljne provere napretka, proveru tehnike putem snimaka vežbi i kontinuiranu podršku. Plan se prilagođava kako napreduješ."
+      "a": "Svaki onlajn paket uključuje nedeljne provere napretka, proveru tehnike putem snimaka i prilagođavanje plana tokom tih provera. Advanced i Premium uključuju i podršku putem poruka između nedeljnih provera."
     },
     {
       "q": "Koja podrška u ishrani je uključena?",
@@ -61,7 +64,7 @@
     },
     {
       "q": "Koja je razlika između Basic, Advanced i Premium paketa?",
-      "a": "Basic uključuje personalizovan trening, materijale o ishrani, nedeljno praćenje i podršku. Advanced dodaje smernice za navike u ishrani i jednu individualnu video-konsultaciju mesečno u trajanju od 30 minuta. Premium obuhvata sve iz Advanced paketa uz jedan trening uživo.",
+      "a": "Basic uključuje personalizovan trening, materijale o ishrani i podršku kroz nedeljne provere napretka. Advanced dodaje podršku porukama između provera, smernice za navike u ishrani i jednu individualnu video-konsultaciju mesečno u trajanju od 30 minuta. Premium obuhvata sve iz Advanced paketa uz jedan trening uživo.",
       "nutrition": true
     },
     {
@@ -72,5 +75,21 @@
       "q": "Kako da počnem?",
       "a": "Izaberi „Raspitaj se o mentorstvu” na željenom paketu, pa Instagram ili imejl. Imejl već sadrži naziv paketa u naslovu kako bi sa Kristinom razgovarao/la o odgovarajućoj podršci."
     }
+  ],
+  "galleryLabel": "Moja priča u fotografijama",
+  "galleryCaption": "I ja sam krenula od početka.",
+  "pausePhotos": "Pauziraj fotografije",
+  "playPhotos": "Pokreni fotografije",
+  "photoLabels": [
+    "Upoznaj me",
+    "Moja promena",
+    "Moja promena — leđa",
+    "Moja promena — profil"
+  ],
+  "photoAlts": [
+    "Kristina Arizanović, fitnes trener i onlajn mentor",
+    "Kristinina lična transformacija: dve fotografije jednu pored druge",
+    "Kristinina lična transformacija prikazana s leđa",
+    "Kristinina lična transformacija prikazana iz profila"
   ]
 }

@@ -1,31 +1,34 @@
 {
-  "aboutLabel": "MEET YOUR TRAINER",
-  "aboutTitle": "Get to know Kristina",
+  "aboutLabel": "MY STORY",
+  "aboutTitle": "Get to know me",
   "about": [
-    "Kristina is the trainer behind Arizona Lifts, offering online fitness mentorship and in-person training. Her approach combines a personalized training plan, guidance on exercise technique, nutrition support, and regular progress check-ins.",
-    "The plan starts with your goals, starting point, and what fits into your routine. Through exercise videos, feedback on your training clips, and ongoing support, you have guidance as you build strength and consistency."
+    "I’m Kristina Arizanović, a licensed fitness trainer and online coach. A political science graduate on paper, but a fitness trainer at heart.",
+    "My love for fitness began five years ago, when I was struggling with excess weight and low confidence. I know how much determination and discipline change takes. Training changed me, both physically and mentally.",
+    "I’ve been a fitness trainer for over three years and have helped more than 100 people build their physique, strength, and confidence. My goal is to teach you how to train smart, eat without guilt, and enjoy the process.",
+    "Today, my coaching brings together my education, personal experience, and work with clients. I earned my certification through Savez za fitnes i rekreaciju Srbije, Serbia’s fitness and recreation federation.",
+    "I’m here to help you reach your goal, find joy in training, and build habits that last."
   ],
   "photoAlt": "Kristina, the trainer behind Arizona Lifts",
-  "audienceTitle": "Find support for your starting point",
+  "audienceTitle": "Your goal, our shared plan",
   "audience": [
     {
-      "title": "Building a routine",
-      "text": "A personalized plan and exercise demonstrations give your training structure. Share your experience and goals with Kristina to find the right starting point."
+      "title": "Weight loss",
+      "text": "Want to lose excess weight? Together, we build a training plan and habits that fit your life, with gradual progress and regular support."
     },
     {
-      "title": "Returning to training",
-      "text": "Build consistency with a plan that takes your commitments into account and adjusts as you progress."
+      "title": "Shape and strength",
+      "text": "Through strength training, we work on building muscle and reducing body fat — body recomposition. The focus is on progress, technique, and how you feel in your body."
     },
     {
-      "title": "Working on strength and technique",
-      "text": "Get feedback on your exercise videos, follow your progress, and develop your training with regular support."
+      "title": "Habits that last",
+      "text": "Whether you’re starting out or returning to training, we build a sustainable routine around your commitments. Step by step, towards more strength and consistency."
     }
   ],
   "stepsTitle": "How online mentorship works",
   "steps": [
     {
       "title": "Start a conversation",
-      "text": "Choose a package and contact Kristina on Instagram or by email. Share your goals and discuss which level of support fits you."
+      "text": "Choose a package and contact me on Instagram or by email. We’ll talk about your goal, whether that’s weight loss, body recomposition, or building a sustainable routine, and find the support that fits you."
     },
     {
       "title": "Assess and plan",
@@ -33,7 +36,7 @@
     },
     {
       "title": "Train with guidance",
-      "text": "Follow the exercise demonstrations, send training clips for technique feedback, and use for ongoing support."
+      "text": "Follow the exercise demonstrations and send training clips for technique feedback at your weekly check-in. Advanced and Premium also include messaging support between check-ins."
     },
     {
       "title": "Check in and adjust",
@@ -52,7 +55,7 @@
     },
     {
       "q": "How do check-ins and technique reviews work?",
-      "a": "Online mentorship includes regular weekly progress check-ins, technique checks through your exercise videos, and ongoing support. Your plan is adjusted as you progress."
+      "a": "Every online package includes weekly progress check-ins, video technique reviews, and plan adjustments during those check-ins. Advanced and Premium also include messaging support between weekly check-ins."
     },
     {
       "q": "What nutrition support is included?",
@@ -61,7 +64,7 @@
     },
     {
       "q": "What is the difference between Basic, Advanced, and Premium?",
-      "a": "Basic includes personalized training, nutrition resources, weekly check-ins, and support. Advanced adds eating-habit guidance and one individual 30-minute video consultation per month. Premium includes everything in Advanced plus one in-person training session.",
+      "a": "Basic includes personalized training, nutrition resources, and support through weekly check-ins. Advanced adds messaging support between check-ins, eating-habit guidance, and one individual 30-minute video consultation per month. Premium includes everything in Advanced plus one in-person training session.",
       "nutrition": true
     },
     {
@@ -72,5 +75,21 @@
       "q": "How do I get started?",
       "a": "Select “Ask about mentorship” on a package, then choose Instagram or email. The email option includes the package name in the subject so you can discuss the right support with Kristina."
     }
+  ],
+  "galleryLabel": "My story in photos",
+  "galleryCaption": "I started somewhere, too.",
+  "pausePhotos": "Pause photos",
+  "playPhotos": "Play photos",
+  "photoLabels": [
+    "Meet me",
+    "My transformation",
+    "My transformation — back",
+    "My transformation — side"
+  ],
+  "photoAlts": [
+    "Kristina Arizanović, fitness trainer and online coach",
+    "Kristina’s personal transformation: two photos side by side",
+    "Kristina’s personal transformation viewed from the back",
+    "Kristina’s personal transformation viewed from the side"
   ]
 }

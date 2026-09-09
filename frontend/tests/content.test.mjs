@@ -15,13 +15,13 @@ test('both languages preserve online and personal mentorship content', () => {
       content.programs.map((p) => p.type),
       ['online', 'online', 'online', 'personal'],
     )
-    assert.equal(content.programs[0].features.length, 11)
-    assert.equal(content.programs[1].features.length, 3)
+    assert.equal(content.programs[0].features.length, 10)
+    assert.equal(content.programs[1].features.length, 4)
     assert.deepEqual(
       content.programs.filter((p) => p.featured).map((p) => p.id),
       ['advanced'],
     )
-    assert.equal(content.programs[2].features.length, 4)
+    assert.equal(content.programs[2].features.length, 5)
     assert.ok(content.programs.every((p) => !Object.hasOwn(p, 'price')))
   }
 })

@@ -10,19 +10,18 @@
       "name": "Basic",
       "category": "ONLINE MENTORSHIP",
       "label": "Your foundation for progress",
-      "description": "Personalized training, a meal plan, and ongoing support.",
+      "description": "Personalized training, a meal plan, and support through weekly check-ins.",
       "features": [
         "Assessment of your starting point, goals, and capabilities",
         "Personalized training plan in the app",
         "Video demonstrations of every exercise",
-        "Technique checks through video reviews",
+        "Video technique reviews during weekly check-ins",
         "Personalized seven-day meal plan",
         "Progress tracking and regular weekly check-ins",
-        "Plan adjustments to match your progress and commitments",
+        "Plan adjustments during weekly check-ins to match your progress and commitments",
         "Nutrition handbook and a library of over 100 recipes",
         "E-book on carbohydrates",
-        "Wellness journal",
-        "Ongoing support"
+        "Wellness journal"
       ],
       "suitedFor": "",
       "featured": false,
@@ -33,9 +32,10 @@
       "name": "Advanced",
       "category": "ONLINE MENTORSHIP",
       "label": "Additional individual support",
-      "description": "Everything in Basic, with additional guidance and individual video consultations.",
+      "description": "Everything in Basic, plus messaging between check-ins, eating-habit guidance, and individual video consultations.",
       "features": [
         "Everything included in Basic, plus:",
+        "Messaging support between weekly check-ins",
         "Tracking your eating habits with specific guidance",
         "One individual 30-minute video consultation per month — a workout over video call or professional feedback on your current condition and progress"
       ],
@@ -51,6 +51,7 @@
       "description": "All Basic and Advanced benefits, plus one in-person training session.",
       "features": [
         "Everything included in Basic and Advanced",
+        "Messaging support between weekly check-ins",
         "Tracking your eating habits with specific guidance",
         "One individual 30-minute video consultation per month — a workout over video call or professional feedback on your current condition and progress",
         "One in-person training session"

@@ -10,19 +10,18 @@
       "name": "Basic",
       "category": "ONLAJN MENTORSTVO",
       "label": "Tvoja osnova za napredak",
-      "description": "Personalizovan trening, plan ishrane i kontinuirana podrška.",
+      "description": "Personalizovan trening, plan ishrane i podrška kroz nedeljne provere napretka.",
       "features": [
         "Analiza početnog stanja, ciljeva i mogućnosti",
         "Personalizovani plan treninga u aplikaciji",
         "Video-prikaz svih vežbi",
-        "Provera tehnike putem snimaka",
+        "Provera tehnike putem snimaka tokom nedeljnih provera napretka",
         "Sedmodnevni personalizovani plan ishrane",
         "Praćenje napretka i redovni nedeljni check-in",
-        "Prilagođavanje plana u skladu sa napretkom i obavezama",
+        "Prilagođavanje plana tokom nedeljnih provera, u skladu sa napretkom i obavezama",
         "Priručnik o ishrani i baza sa više od 100 recepata",
         "E-knjiga o ugljenim hidratima",
-        "Wellness dnevnik",
-        "Kontinuirana podrška"
+        "Wellness dnevnik"
       ],
       "suitedFor": "",
       "featured": false,
@@ -33,9 +32,10 @@
       "name": "Advanced",
       "category": "ONLAJN MENTORSTVO",
       "label": "Dodatna individualna podrška",
-      "description": "Sve iz Basic paketa, uz dodatne smernice i individualne video-konsultacije.",
+      "description": "Sve iz Basic paketa, uz podršku porukama između nedeljnih provera, smernice za navike u ishrani i individualne video-konsultacije.",
       "features": [
         "Sve što obuhvata Basic paket, plus:",
+        "Podrška putem poruka između nedeljnih provera napretka",
         "Praćenje navika u ishrani i konkretne smernice",
         "Jedna individualna video-konsultacija mesečno u trajanju od 30 minuta — trening preko video-poziva ili stručno komentarisanje trenutnog stanja i napretka"
       ],
@@ -51,6 +51,7 @@
       "description": "Sve pogodnosti Basic i Advanced paketa, uz jedan trening uživo.",
       "features": [
         "Sve što obuhvataju Basic i Advanced paketi",
+        "Podrška putem poruka između nedeljnih provera napretka",
         "Praćenje navika u ishrani i konkretne smernice",
         "Jedna individualna video-konsultacija mesečno u trajanju od 30 minuta — trening preko video-poziva ili stručno komentarisanje trenutnog stanja i napretka",
         "Jedan trening uživo"

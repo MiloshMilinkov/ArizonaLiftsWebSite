@@ -524,9 +524,7 @@ footer {
   .hero-image {
     height: 570px;
   }
-  .hero h1 {
-    font-size: 6rem;
-  }
+
   .program-grid {
     gap: 12px;
   }
@@ -586,9 +584,7 @@ footer {
   .hero-copy {
     padding-top: 0;
   }
-  .hero h1 {
-    font-size: clamp(4.5rem, 16vw, 6.5rem);
-  }
+
   .hero-description {
     max-width: 100%;
   }
@@ -671,9 +667,7 @@ footer {
 .program-title > * {
   min-width: 0;
 }
-html[lang='sr-Latn'] .hero h1 {
-  font-size: clamp(3.8rem, 6.2vw, 6.6rem);
-}
+
 @media (max-width: 1100px) and (min-width: 701px) {
   .header {
     padding-inline: 3%;
@@ -722,9 +716,6 @@ html[lang='sr-Latn'] .hero h1 {
   }
 }
 @media (max-width: 700px) {
-  html[lang='sr-Latn'] .hero h1 {
-    font-size: clamp(3.5rem, 13vw, 5.5rem);
-  }
   .ticker {
     text-align: center;
   }

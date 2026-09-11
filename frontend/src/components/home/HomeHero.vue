@@ -9,7 +9,7 @@ import HeroSlideshow from './HeroSlideshow.vue'
   <section class="hero">
     <div class="hero-copy">
       <div class="eyebrow"><span class="dot"></span> {{ t('hero.eyebrow') }}</div>
-      <h1>
+      <h1 class="hero-heading">
         {{ t('hero.line1') }}<br />{{ t('hero.line2') }}<br /><em>{{ t('hero.line3') }}</em>
       </h1>
       <p class="hero-description">
@@ -31,6 +31,19 @@ import HeroSlideshow from './HeroSlideshow.vue'
 </template>
 
 <style scoped>
+.hero-copy {
+  container-type: inline-size;
+}
+.hero-heading {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: clamp(5.25rem, 10cqw, 6.25rem);
+  line-height: 1.14;
+  letter-spacing: 0;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
 @media (max-width: 700px) {
   .hero-program-cta {
     display: flex;

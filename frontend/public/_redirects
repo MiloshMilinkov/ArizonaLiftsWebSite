@@ -1,1 +1,2 @@
-/* /index.html 200
+# Cloudflare Pages native SPA fallback serves application routes.
+# Domain redirects are configured in account-level Bulk Redirects; see docs/SEO.md.

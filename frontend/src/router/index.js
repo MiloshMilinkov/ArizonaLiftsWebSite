@@ -1,5 +1,7 @@
+import { applyMetadata, pageMetadata } from '@/seo/metadata'
 import { createRouter, createWebHistory } from 'vue-router'
 import i18n from '@/i18n'
+import { siteOrigin } from '@/config/seo'
 import JourneyView from '@/views/JourneyView.vue'
 import { browserLocale, languageTags, rememberLocale } from '@/i18n/locale'
 
@@ -79,9 +81,11 @@ router.afterEach((to, from, failure) => {
   i18n.global.locale.value = locale
   rememberLocale(locale)
   document.documentElement.lang = languageTags[locale]
-  document.title = i18n.global.t(to.meta.titleKey)
-  document
-    .querySelector('meta[name="description"]')
-    ?.setAttribute('content', i18n.global.t('meta.description'))
+  applyMetadata(
+    pageMetadata(siteOrigin, locale, {
+      home: i18n.global.t('meta.home'),
+      description: i18n.global.t('meta.description'),
+    }),
+  )
 })
 export default router

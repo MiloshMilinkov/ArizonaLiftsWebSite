@@ -2,7 +2,7 @@
   "aboutLabel": "MOJA PRIČA",
   "aboutTitle": "Upoznaj me",
   "about": [
-    "Ja sam Kristina Arizanović, licencirani fitnes trener i onlajn mentor. Diplomirani politikolog na papiru, ali fitnes trener u srcu.",
+    "Ja sam Kristina Arizanović, trener iza brenda Arizona Lifts. Licencirani sam fitnes trener i kroz personalne treninge i onlajn mentorstvo pomažem ti da radiš na svojim ciljevima. Diplomirani politikolog na papiru, ali fitnes trener u srcu.",
     "Moja ljubav prema fitnesu počela je pre pet godina, kada sam se borila sa viškom kilograma i manjkom samopouzdanja. Znam koliko je volje i discipline potrebno za promenu. Trening me je promenio, ne samo fizički već i mentalno.",
     "Fitnes trener sam više od tri godine i pomogla sam više od 100 ljudi da izgrade telo, snagu i samopouzdanje. Moj cilj je da te naučim kako da treniraš pametno, jedeš bez griže savesti i uživaš u procesu.",
     "Danas kroz svoj rad spajam ono što sam naučila kroz edukaciju, lično iskustvo i rad sa klijentkinjama. Sertifikat sam stekla u Savezu za fitnes i rekreaciju Srbije.",
@@ -12,19 +12,19 @@
   "audienceTitle": "Tvoj cilj, naš zajednički plan",
   "audience": [
     {
-      "title": "Mršavljenje",
-      "text": "Želiš da skineš višak kilograma? Zajedno gradimo plan treninga i navike koje se uklapaju u tvoj život, uz postepen napredak i redovnu podršku."
+      "title": "Trening uz podršku za mršavljenje",
+      "text": "Tražiš personalnog trenera za podršku pri mršavljenju? Zajedno gradimo plan treninga koji odgovara tvom početnom stanju i obavezama. Kroz nedeljne provere pratimo napredak i prilagođavamo plan, bez obećanja o tačnom rezultatu ili roku."
     },
     {
       "title": "Oblikovanje i zatezanje",
       "text": "Kroz trening snage radimo na izgradnji mišića i smanjenju masnog tkiva — telesnoj rekompoziciji. Fokus je na napretku, tehnici i tome kako se osećaš u svom telu."
     },
     {
-      "title": "Navike koje traju",
-      "text": "Bilo da tek počinješ ili se vraćaš treninzima, gradimo održivu rutinu koja prati tvoje obaveze. Korak po korak, do više snage i doslednosti."
+      "title": "Trening snage za početnike",
+      "text": "Prvi put počinješ sa treningom snage ili se vraćaš nakon pauze? Kreni uz plan prilagođen tvom iskustvu, video-prikaze vežbi i povratne informacije o tehnici. Korak po korak gradimo sigurnost i održivu rutinu treninga."
     }
   ],
-  "stepsTitle": "Kako funkcioniše onlajn mentorstvo",
+  "stepsTitle": "Kako funkcioniše onlajn rad sa trenerom",
   "steps": [
     {
       "title": "Počni razgovorom",
@@ -46,8 +46,8 @@
   "faqTitle": "Pitanja pre početka?",
   "faq": [
     {
-      "q": "Da li je onlajn mentorstvo za početnike?",
-      "a": "Plan počinje analizom tvog početnog stanja, ciljeva i mogućnosti. Video-prikazi vežbi i provera tehnike putem snimaka pružaju smernice. Reci Kristini koliko iskustva imaš da razgovarate o odgovarajućem početku."
+      "q": "Da li je onlajn personalni trener dobar izbor za početnike?",
+      "a": "Onlajn mentorstvo počinje razgovorom o tvom iskustvu, ciljevima i dostupnoj opremi. Plan uključuje video-prikaze vežbi, a tehniku proveravamo putem tvojih snimaka tokom nedeljnih provera. Ako tek počinješ sa treningom snage, javi mi se da pre izbora paketa razgovaramo o podršci koja ti je potrebna."
     },
     {
       "q": "Mogu li da treniram kod kuće i koja oprema mi je potrebna?",
@@ -74,18 +74,21 @@
     {
       "q": "Kako da počnem?",
       "a": "Izaberi „Raspitaj se o mentorstvu” na željenom paketu, pa Instagram ili imejl. Imejl već sadrži naziv paketa u naslovu kako bi sa Kristinom razgovarao/la o odgovarajućoj podršci."
+    },
+    {
+      "q": "Koja je razlika između onlajn mentorstva i personalnih treninga uživo?",
+      "a": "Kod onlajn mentorstva pratiš plan treninga u aplikaciji i šalješ snimke za proveru tehnike tokom nedeljnih provera. Advanced i Premium uključuju i poruke između provera. Na personalnim treninzima uživo radimo zajedno tokom termina, pa mogu da usmeravam tvoju tehniku dok vežbaš. Javi mi se da potvrdimo lokaciju i dostupnost."
+    },
+    {
+      "q": "Da li personalni trening može da podrži moj cilj mršavljenja?",
+      "a": "Mršavljenje može biti jedan od ciljeva o kojima razgovaramo pri izradi plana treninga. Kroz nedeljne provere pratimo početno stanje i napredak, a trening prilagođavamo tvojim obavezama. Rezultati i vreme potrebno za promenu razlikuju se od osobe do osobe; fokus je na doslednom treningu i navikama koje možeš da održiš."
     }
   ],
   "galleryLabel": "Moja priča u fotografijama",
   "galleryCaption": "I ja sam krenula od početka.",
   "pausePhotos": "Pauziraj fotografije",
   "playPhotos": "Pokreni fotografije",
-  "photoLabels": [
-    "Upoznaj me",
-    "Moja promena",
-    "Moja promena — leđa",
-    "Moja promena — profil"
-  ],
+  "photoLabels": ["Upoznaj me", "Moja promena", "Moja promena — leđa", "Moja promena — profil"],
   "photoAlts": [
     "Kristina Arizanović, fitnes trener i onlajn mentor",
     "Kristinina lična transformacija: dve fotografije jednu pored druge",

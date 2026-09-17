@@ -2,7 +2,7 @@
   "aboutLabel": "MY STORY",
   "aboutTitle": "Get to know me",
   "about": [
-    "I’m Kristina Arizanović, a licensed fitness trainer and online coach. A political science graduate on paper, but a fitness trainer at heart.",
+    "I’m Kristina Arizanović, the trainer behind Arizona Lifts. I’m a licensed fitness trainer offering personal training and online coaching. A political science graduate on paper, but a fitness trainer at heart.",
     "My love for fitness began five years ago, when I was struggling with excess weight and low confidence. I know how much determination and discipline change takes. Training changed me, both physically and mentally.",
     "I’ve been a fitness trainer for over three years and have helped more than 100 people build their physique, strength, and confidence. My goal is to teach you how to train smart, eat without guilt, and enjoy the process.",
     "Today, my coaching brings together my education, personal experience, and work with clients. I earned my certification through Savez za fitnes i rekreaciju Srbije, Serbia’s fitness and recreation federation.",
@@ -12,19 +12,19 @@
   "audienceTitle": "Your goal, our shared plan",
   "audience": [
     {
-      "title": "Weight loss",
-      "text": "Want to lose excess weight? Together, we build a training plan and habits that fit your life, with gradual progress and regular support."
+      "title": "Training for weight-loss goals",
+      "text": "Looking for a personal trainer to support your weight-loss goals? Together, we build a training plan that fits your starting point and routine. Weekly check-ins help us review progress and adjust the plan, without promises of a fixed result or deadline."
     },
     {
       "title": "Shape and strength",
       "text": "Through strength training, we work on building muscle and reducing body fat — body recomposition. The focus is on progress, technique, and how you feel in your body."
     },
     {
-      "title": "Habits that last",
-      "text": "Whether you’re starting out or returning to training, we build a sustainable routine around your commitments. Step by step, towards more strength and consistency."
+      "title": "Strength training for beginners",
+      "text": "New to strength training or returning after a break? Start with a plan suited to your experience, exercise demonstrations and technique feedback. We build confidence and a sustainable training routine step by step."
     }
   ],
-  "stepsTitle": "How online mentorship works",
+  "stepsTitle": "How online fitness coaching works",
   "steps": [
     {
       "title": "Start a conversation",
@@ -46,8 +46,8 @@
   "faqTitle": "Questions before you start?",
   "faq": [
     {
-      "q": "Is online mentorship suitable for beginners?",
-      "a": "The plan starts with an assessment of your starting point, goals, and capabilities. Exercise demonstrations and video technique checks provide guidance. Tell Kristina about your experience so you can discuss a suitable starting point."
+      "q": "Can I start strength training with an online personal trainer?",
+      "a": "Online coaching starts with a review of your experience, goals and available equipment. Your plan includes exercise demonstrations, and we review your technique through training videos at weekly check-ins. Tell me if you are a complete beginner so we can discuss the support you need before choosing a package."
     },
     {
       "q": "Can I train at home, and what equipment do I need?",
@@ -74,6 +74,14 @@
     {
       "q": "How do I get started?",
       "a": "Select “Ask about mentorship” on a package, then choose Instagram or email. The email option includes the package name in the subject so you can discuss the right support with Kristina."
+    },
+    {
+      "q": "What is the difference between online coaching and in-person personal training?",
+      "a": "With online coaching, you follow your training plan in the app and send videos for technique feedback at weekly check-ins. Advanced and Premium also include messaging between check-ins. With in-person personal training, we work together during the session so I can guide your technique as you train. Contact me to confirm the location and availability."
+    },
+    {
+      "q": "Can personal training support my weight-loss goals?",
+      "a": "Weight loss can be one of the goals we discuss when creating your training plan. We review your starting point and progress at weekly check-ins and adjust training to your commitments. Results and timelines vary from person to person; the focus is on consistent training and habits you can maintain."
     }
   ],
   "galleryLabel": "My story in photos",

@@ -1,42 +1,62 @@
 <script setup>
-import { useRoute, useRouter } from 'vue-router'
-import { activeSection } from '@/composables/useActiveSection'
+import { RouterLink, useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
+import { activeSection } from '@/composables/useActiveSection'
+import { languageTags, supportedLocales } from '@/i18n/locale'
+
 const route = useRoute()
-const router = useRouter()
 const { t, locale } = useI18n()
-function selectLanguage(language) {
-  if (language === locale.value) return
-  router.push({
+const languageNames = { en: 'English', sr: 'Srpski' }
+
+function languageRoute(language) {
+  return {
     name: activeSection.value,
     params: { ...route.params, locale: language },
     query: route.query,
     hash: route.hash,
-  })
+  }
+}
+
+function navigateLanguage(event, language, navigate) {
+  // Keep the current language from scrolling the page; preserve open-in-new-tab clicks.
+  if (
+    language === locale.value &&
+    event.button === 0 &&
+    !event.ctrlKey &&
+    !event.metaKey &&
+    !event.shiftKey &&
+    !event.altKey
+  ) {
+    event.preventDefault()
+    return
+  }
+  navigate(event)
 }
 </script>
+
 <template>
   <div class="language-switch" role="group" :aria-label="t('nav.language')">
-    <button
-      type="button"
-      lang="en"
-      aria-label="English"
-      :aria-pressed="locale === 'en'"
-      @click="selectLanguage('en')"
+    <RouterLink
+      v-for="language in supportedLocales"
+      :key="language"
+      :to="languageRoute(language)"
+      custom
+      v-slot="{ href, navigate }"
     >
-      EN
-    </button>
-    <button
-      type="button"
-      lang="sr-Latn"
-      aria-label="Srpski"
-      :aria-pressed="locale === 'sr'"
-      @click="selectLanguage('sr')"
-    >
-      SR
-    </button>
+      <a
+        :href="href"
+        :lang="languageTags[language]"
+        :hreflang="languageTags[language]"
+        :aria-label="languageNames[language]"
+        :aria-current="locale === language ? 'true' : undefined"
+        @click="navigateLanguage($event, language, navigate)"
+      >
+        {{ language.toUpperCase() }}
+      </a>
+    </RouterLink>
   </div>
 </template>
+
 <style scoped>
 .language-switch {
   display: flex;
@@ -46,7 +66,10 @@ function selectLanguage(language) {
   gap: 2px;
   flex-shrink: 0;
 }
-button {
+a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 0;
   border-radius: 3px;
   background: transparent;
@@ -56,7 +79,7 @@ button {
   font-size: 0.875rem;
   font-weight: 700;
 }
-button[aria-pressed='true'] {
+a[aria-current='true'] {
   background: var(--accent-text);
   color: var(--on-dark);
 }

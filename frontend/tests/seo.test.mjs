@@ -20,6 +20,7 @@ test('canonical and language alternates use the production domain and matching l
     assert.deepEqual(meta.alternates, [
       { language: 'en', href: siteOrigin + '/en' },
       { language: 'sr', href: siteOrigin + '/sr' },
+      { language: 'x-default', href: siteOrigin + '/' },
     ])
   }
 })

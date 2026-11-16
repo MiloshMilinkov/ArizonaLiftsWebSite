@@ -1,31 +1,31 @@
 [
   {
     "id": "transformation-1",
-    "image": "/images/transformations/transformation-01.jpeg",
+    "image": "/images/transformations/transformation-01.webp",
     "en": {
       "alt": "Client progress comparison in two photos"
     },
     "sr": {
       "alt": "Poređenje napretka klijentkinje na dve fotografije"
     },
-    "width": 846,
-    "height": 1959
+    "width": 769,
+    "height": 1950
   },
   {
     "id": "transformation-2",
-    "image": "/images/transformations/transformation-02.jpeg",
+    "image": "/images/transformations/transformation-02.webp",
     "en": {
       "alt": "Client training progress with dumbbells"
     },
     "sr": {
       "alt": "Napredak klijentkinje tokom treninga sa bučicama"
     },
-    "width": 1029,
-    "height": 2051
+    "width": 972,
+    "height": 2027
   },
   {
     "id": "transformation-3",
-    "image": "/images/transformations/transformation-03.png",
+    "image": "/images/transformations/transformation-03.webp",
     "en": {
       "alt": "One-month mentorship progress collage"
     },
@@ -37,7 +37,7 @@
   },
   {
     "id": "transformation-4",
-    "image": "/images/transformations/transformation-04.png",
+    "image": "/images/transformations/transformation-04.webp",
     "en": {
       "alt": "Client progress comparison from behind"
     },
@@ -49,31 +49,31 @@
   },
   {
     "id": "transformation-5",
-    "image": "/images/transformations/transformation-05.png",
+    "image": "/images/transformations/transformation-05.webp",
     "en": {
       "alt": "Client feedback with progress photos"
     },
     "sr": {
       "alt": "Utisak klijentkinje uz fotografije napretka"
     },
-    "width": 1027,
-    "height": 1697
+    "width": 1000,
+    "height": 1652
   },
   {
     "id": "transformation-6",
-    "image": "/images/transformations/transformation-06.jpeg",
+    "image": "/images/transformations/transformation-06.webp",
     "en": {
       "alt": "Side-by-side client progress photos"
     },
     "sr": {
       "alt": "Uporedne fotografije napretka klijentkinje"
     },
-    "width": 1179,
-    "height": 1262
+    "width": 1000,
+    "height": 1070
   },
   {
     "id": "transformation-7",
-    "image": "/images/transformations/transformation-07.jpeg",
+    "image": "/images/transformations/transformation-07.webp",
     "source": "WhatsApp Image 2026-09-08 at 12.17.32 AM.jpeg",
     "en": {
       "alt": "Side-by-side progress photos after one month of mentorship"
@@ -86,7 +86,7 @@
   },
   {
     "id": "transformation-8",
-    "image": "/images/transformations/transformation-08.jpeg",
+    "image": "/images/transformations/transformation-08.webp",
     "source": "WhatsApp Image 2026-09-08 at 12.21.39 AM.jpeg",
     "en": {
       "alt": "Client progress comparison in a black sports top"
@@ -94,12 +94,12 @@
     "sr": {
       "alt": "Poređenje napretka klijentkinje u crnom sportskom topu"
     },
-    "width": 2048,
-    "height": 2048
+    "width": 1000,
+    "height": 1000
   },
   {
     "id": "transformation-9",
-    "image": "/images/transformations/transformation-09.jpeg",
+    "image": "/images/transformations/transformation-09.webp",
     "source": "WhatsApp Image 2026-09-08 at 12.21.40 AM.jpeg",
     "en": {
       "alt": "Two photos showing client back progress"
@@ -107,7 +107,7 @@
     "sr": {
       "alt": "Dve fotografije napretka leđa klijentkinje"
     },
-    "width": 1152,
-    "height": 2048
+    "width": 1000,
+    "height": 1778
   }
 ]

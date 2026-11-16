@@ -54,6 +54,27 @@
     "loading": "Učitavanje uvoda…",
     "error": "Uvod trenutno nije dostupan."
   },
+  "social": {
+    "eyebrow": "PRATI ME",
+    "title": "Najnovije sa Arizona Lifts",
+    "description": "Saveti za trening, uspesi klijenata i motivacija za svaki dan. Ovo su najnovije objave sa Instagrama i TikToka.",
+    "follow": {
+      "instagram": "Zaprati na Instagramu",
+      "tiktok": "Zaprati na TikToku"
+    },
+    "viewOn": {
+      "instagram": "Pogledaj na Instagramu",
+      "tiktok": "Pogledaj na TikToku"
+    },
+    "play": {
+      "instagram": "Pusti Instagram video",
+      "tiktok": "Pusti TikTok video"
+    },
+    "playerTitle": {
+      "instagram": "Instagram video plejer",
+      "tiktok": "TikTok video plejer"
+    }
+  },
   "programs": {
     "chapter": "PODRŠKA NA TVOM PUTU",
     "goals": "Onlajn",

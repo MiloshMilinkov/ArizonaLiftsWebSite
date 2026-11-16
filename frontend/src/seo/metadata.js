@@ -21,6 +21,8 @@ export function pageMetadata(origin, locale, messages) {
     alternates: [
       { language: 'en', href: origin + '/en' },
       { language: 'sr', href: origin + '/sr' },
+      // The bare origin picks a language from the visitor's browser.
+      { language: 'x-default', href: origin + '/' },
     ],
   }
 }

@@ -54,6 +54,27 @@
     "loading": "Loading the introduction…",
     "error": "The trainer introduction is unavailable right now."
   },
+  "social": {
+    "eyebrow": "FOLLOW ALONG",
+    "title": "Latest from Arizona Lifts",
+    "description": "Training tips, client wins and everyday motivation. Here are the newest posts from Instagram and TikTok.",
+    "follow": {
+      "instagram": "Follow on Instagram",
+      "tiktok": "Follow on TikTok"
+    },
+    "viewOn": {
+      "instagram": "View on Instagram",
+      "tiktok": "View on TikTok"
+    },
+    "play": {
+      "instagram": "Play Instagram video",
+      "tiktok": "Play TikTok video"
+    },
+    "playerTitle": {
+      "instagram": "Instagram video player",
+      "tiktok": "TikTok video player"
+    }
+  },
   "programs": {
     "chapter": "SUPPORT FOR YOUR JOURNEY",
     "goals": "Online",

@@ -4,7 +4,7 @@ import { Pause, Play } from '@lucide/vue'
 import { slideIntervalMs } from '@/config/heroSlides'
 defineProps({ content: { type: Object, required: true } })
 const photos = [1, 2, 3].map((n) => ({
-  src: '/images/about/kristina-transformation-' + n + '.jpeg',
+  src: '/images/about/kristina-transformation-' + n + '.webp',
   label: n,
 }))
 const active = ref(0)
@@ -59,8 +59,8 @@ onBeforeUnmount(() => {
         :alt="index === active ? content.photoAlts[photo.label] : ''"
         :aria-hidden="index !== active"
         :class="{ active: index === active }"
-        width="2048"
-        height="2048"
+        width="1000"
+        height="1000"
         loading="lazy"
         decoding="async"
       />

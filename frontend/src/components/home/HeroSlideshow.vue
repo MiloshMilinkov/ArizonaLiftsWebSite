@@ -1,7 +1,7 @@
 <script setup>
 import { computed, onMounted, onBeforeUnmount, ref, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { heroSlides, slideIntervalMs } from '@/config/heroSlides'
+import { heroSizes, heroSlides, slideIntervalMs } from '@/config/heroSlides'
 
 const { t } = useI18n()
 const failed = ref([])
@@ -11,6 +11,12 @@ const paused = ref(false)
 const hovered = ref(false)
 const hidden = ref(false)
 const activeSlide = computed(() => slides.value[index.value])
+// Only the first slide loads with the page; each later one loads while the slide before it shows.
+const loadUpTo = ref(0)
+function unlock(slideIndex) {
+  loadUpTo.value = Math.max(loadUpTo.value, slideIndex)
+}
+watch(index, (current) => unlock(current + 1))
 let timer
 let motionPreference
 
@@ -64,17 +70,22 @@ onBeforeUnmount(() => {
     @mouseenter="hovered = true"
     @mouseleave="hovered = false"
   >
-    <img
-      v-for="(slide, slideIndex) in slides"
-      :key="slide.id"
-      :src="slide.src"
-      :alt="slideIndex === index ? t(slide.altKey) : ''"
-      :aria-hidden="slideIndex !== index"
-      :class="{ 'slide-active': slideIndex === index }"
-      :style="{ objectPosition: slide.position }"
-      :fetchpriority="slideIndex === 0 ? 'high' : 'auto'"
-      @error="removeFailed(slide.id)"
-    />
+    <template v-for="(slide, slideIndex) in slides" :key="slide.id">
+      <img
+        v-if="slideIndex <= loadUpTo"
+        :loading="slideIndex === 0 ? 'eager' : 'lazy'"
+        :fetchpriority="slideIndex === 0 ? 'high' : 'low'"
+        :sizes="slide.srcset && heroSizes"
+        :srcset="slide.srcset"
+        :src="slide.src"
+        :alt="slideIndex === index ? t(slide.altKey) : ''"
+        :aria-hidden="slideIndex !== index"
+        :class="{ 'slide-active': slideIndex === index }"
+        :style="{ objectPosition: slide.position }"
+        @load="slideIndex === 0 && unlock(1)"
+        @error="removeFailed(slide.id)"
+      />
+    </template>
     <p v-if="!slides.length" class="slideshow-error">{{ t('hero.imageUnavailable') }}</p>
     <div class="image-label">
       <span

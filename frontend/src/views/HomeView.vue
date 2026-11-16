@@ -5,6 +5,7 @@ const { t, locale } = useI18n()
 import HomeHero from '@/components/home/HomeHero.vue'
 import CoachingGuide from '@/components/home/CoachingGuide.vue'
 import TrainingValues from '@/components/home/TrainingValues.vue'
+import SocialFeed from '@/components/home/SocialFeed.vue'
 import { useSiteContent } from '@/composables/useSiteContent'
 const { profile } = useSiteContent()
 </script>
@@ -27,4 +28,5 @@ const { profile } = useSiteContent()
     </div>
   </section>
   <CoachingGuide />
+  <SocialFeed />
 </template>

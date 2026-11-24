@@ -2,6 +2,8 @@
   "name": "arizona-lifts-web",
   "private": true,
   "version": "1.0.0",
+  "license": "UNLICENSED",
+  "author": "Miloš Milinkov <milos300399@gmail.com>",
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",

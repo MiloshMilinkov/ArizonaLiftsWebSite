@@ -22,6 +22,11 @@ artifacts/
 !.env.template
 appsettings.Local.json
 appsettings.*.Local.json
+.dev.vars
+.wrangler/
+*.pem
+credentials*.json
+service-account*.json
 *.pfx
 *.p12
 *.key

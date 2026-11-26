@@ -1,5 +1,7 @@
 # Frontend
 
+[![CI](https://github.com/MiloshMilinkov/ArizonaLiftsWebSite/actions/workflows/ci.yml/badge.svg)](https://github.com/MiloshMilinkov/ArizonaLiftsWebSite/actions/workflows/ci.yml)
+
 Vue 3 with Composition API, Vue Router, Vue I18n, and Vite. This is a static site with no API dependency.
 
 ## Structure

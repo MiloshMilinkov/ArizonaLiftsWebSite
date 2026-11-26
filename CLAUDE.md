@@ -44,3 +44,7 @@ Updating a post: change its entry, add `public/images/social/ig-<id>.webp` or `t
 
 - `index.html` holds static Open Graph tags (share image `public/og-image.jpg`, 1200x630) and JSON-LD (WebSite + Person with `sameAs` to the social profiles). Crawlers for link previews don't run JS, so these stay in English for both languages.
 - `src/seo/metadata.js` sets title, description, canonical and hreflang (en, sr, x-default) at runtime. The sitemap and robots.txt are emitted by `build/seo.js`.
+
+## CI
+
+`.github/workflows/ci.yml` calls the shared `node-ci.yml` in `MiloshMilinkov/.github` with `working-directory: frontend`: it runs `npm test` and `npm run build`, plus a gitleaks scan. Check runs with `gh run list -L 3`.

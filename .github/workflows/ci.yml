@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   ci:
-    uses: MiloshMilinkov/.github/.github/workflows/node-ci.yml@main
+    uses: MiloshMilinkov/.github/.github/workflows/node-ci.yml@test/pnpm
     with:
       working-directory: frontend
       scripts: "test build"

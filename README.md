@@ -34,6 +34,12 @@ npm run build    # static build in frontend/dist
 
 More detail on content and language rules: [frontend/README.md](frontend/README.md).
 
+## How it was built
+
+Built with [Claude Code](https://claude.com/claude-code). The project rules and commands are in
+[CLAUDE.md](CLAUDE.md), and the general workflow in
+[claude-workflow](https://github.com/MiloshMilinkov/claude-workflow).
+
 ## License
 
 Copyright © 2026 Miloš Milinkov. All rights reserved.
